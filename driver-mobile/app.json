@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "driver-mobile",
+    "slug": "driver-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aitms.driver",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to track deliveries and update ETA for customers.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We track your location in the background to simplify your workflow and provide real-time updates to dispatch even when the app is closed.",
+        "NSLocationAlwaysUsageDescription": "We track your location in the background to simplify your workflow and provide real-time updates to dispatch even when the app is closed.",
+        "NSLocationUsageDescription": "We need your location to track deliveries.",
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.aitms.driver",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow AI-TMS Driver to use your location."
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
