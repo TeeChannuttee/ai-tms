@@ -1,8 +1,8 @@
-# 🚚 Logistics Core Platform: AI-Powered Transportation Management System
+# Logistics Core Platform: AI-Powered Transportation Management System
 
 Enterprise-grade Transportation Management System with advanced AI capabilities for route optimization, real-time tracking, and intelligent decision-making.
 
-## 🌟 Features
+## Features
 
 ### Core TMS Features
 - **Fleet & Driver Management** - Complete master data management
@@ -20,7 +20,7 @@ Enterprise-grade Transportation Management System with advanced AI capabilities 
 4. **POD Fraud Detection** - Detect fake delivery proofs
 5. **AI Copilot** - Natural language interface (Thai language support)
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ai-tms/
@@ -46,14 +46,4 @@ ai-tms/
 - **Logging**: Structured JSON logs
 - **Container**: Docker & Docker Compose
 
-## 📝 License
 
-MIT License - See LICENSE file for details
-
-## 🤝 Contributing
-
-This is an educational/portfolio project. Contributions are welcome!
-
----
-
-**Built with ❤️ for Enterprise-Grade Logistics**
