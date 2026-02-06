@@ -1,0 +1,6 @@
+depot_id,name,address,latitude,longitude,operating_hours_start,operating_hours_end,avg_loading_time_minutes,capacity_pallets
+DEPOT_001,Warehouse 1,"655 Rama IV Road, Bangkok",13.762362035654208,100.64014286128199,06:00,22:00,25,171
+DEPOT_002,Warehouse 2,"115 Rama IV Road, Bangkok",13.82959754525911,100.48120372808849,06:00,22:00,33,314
+DEPOT_003,Warehouse 3,"26 Rama IV Road, Bangkok",13.66742508365046,100.62323522915499,06:00,22:00,18,459
+DEPOT_004,Warehouse 4,"760 Rama IV Road, Bangkok",13.862421773338813,100.45411689885917,06:00,22:00,16,443
+DEPOT_005,Warehouse 5,"282 Rama IV Road, Bangkok",13.899732792240126,100.49246782213567,06:00,22:00,42,376

@@ -1,0 +1,501 @@
+customer_id,name,business_type,address,latitude,longitude,time_window_start,time_window_end,avg_service_time_minutes,access_difficulty,parking_availability,contact_phone
+CUST_0001,ร้าน สุขใจ 1,Restaurant,"345 Sukhumvit Road, Bangkok",13.866675770517919,100.59400730730923,08:00,any,11,medium,good,029179730
+CUST_0002,ร้าน กรุงเทพ 2,Restaurant,"349 Sukhumvit Road, Bangkok",13.829532810361568,100.5631016694646,10:00,19:00,6,hard,good,029667566
+CUST_0003,บริษัท ไทย 3,Restaurant,"738 Sukhumvit Road, Bangkok",13.725539717672087,100.51913919870078,any,any,7,hard,good,028987516
+CUST_0004,ร้าน สยาม 4,Office,"96 Sukhumvit Road, Bangkok",13.937722438369208,100.51850485143571,10:00,18:00,7,medium,difficult,025081983
+CUST_0005,ห้าง กรุงเทพ 5,Warehouse,"485 Sukhumvit Road, Bangkok",13.770255425029092,100.54240116072883,10:00,any,22,hard,difficult,026549757
+CUST_0006,ห้าง สุขใจ 6,Warehouse,"278 Sukhumvit Road, Bangkok",13.834485078945796,100.6323704817686,10:00,19:00,24,easy,good,024231028
+CUST_0007,บริษัท ไทย 7,Warehouse,"197 Sukhumvit Road, Bangkok",13.801766603665339,100.57229084708693,09:00,any,23,medium,difficult,029801946
+CUST_0008,ร้าน สยาม 8,Supermarket,"853 Sukhumvit Road, Bangkok",13.86782867581872,100.56859258105177,09:00,19:00,15,easy,limited,024010529
+CUST_0009,บริษัท ไทย 9,Warehouse,"281 Sukhumvit Road, Bangkok",13.819539955076763,100.58933016477539,08:00,17:00,24,hard,limited,023118618
+CUST_0010,บริษัท สยาม 10,Office,"588 Sukhumvit Road, Bangkok",13.656906781436291,100.58027344219765,10:00,any,2,medium,limited,026716097
+CUST_0011,บริษัท กรุงเทพ 11,Restaurant,"964 Sukhumvit Road, Bangkok",13.822886508050043,100.57134300927657,any,17:00,10,easy,limited,029250138
+CUST_0012,ห้าง สยาม 12,Retail Store,"156 Sukhumvit Road, Bangkok",13.673196319646637,100.47084939321037,09:00,19:00,7,easy,good,022987287
+CUST_0013,ร้าน ไทย 13,Supermarket,"795 Sukhumvit Road, Bangkok",13.927670553872032,100.54016787428083,any,any,17,medium,limited,028194570
+CUST_0014,ห้าง สยาม 14,Warehouse,"625 Sukhumvit Road, Bangkok",13.720771810378524,100.48310410207345,08:00,18:00,20,hard,good,025440025
+CUST_0015,บริษัท ไทย 15,Retail Store,"178 Sukhumvit Road, Bangkok",13.68739880436098,100.63416837652348,08:00,18:00,13,easy,limited,028558197
+CUST_0016,ร้าน กรุงเทพ 16,Supermarket,"34 Sukhumvit Road, Bangkok",13.743433279213692,100.49547912417543,09:00,19:00,18,hard,limited,028617381
+CUST_0017,ห้าง ไทย 17,Retail Store,"947 Sukhumvit Road, Bangkok",13.769700811161039,100.4609523277644,10:00,18:00,7,medium,good,024771676
+CUST_0018,ร้าน ไทย 18,Restaurant,"74 Sukhumvit Road, Bangkok",13.711673942512691,100.6075579777429,08:00,18:00,6,medium,difficult,025842082
+CUST_0019,บริษัท สุขใจ 19,Office,"706 Sukhumvit Road, Bangkok",13.750049751507344,100.52963373871819,10:00,any,2,medium,difficult,029284509
+CUST_0020,บริษัท สยาม 20,Office,"911 Sukhumvit Road, Bangkok",13.909055442183886,100.6345920463597,any,19:00,8,hard,limited,021433940
+CUST_0021,บริษัท สยาม 21,Retail Store,"784 Sukhumvit Road, Bangkok",13.754085960568869,100.59750024962196,10:00,17:00,7,easy,limited,029706768
+CUST_0022,ร้าน ไทย 22,Office,"600 Sukhumvit Road, Bangkok",13.82612046724097,100.4565693340487,any,any,4,easy,limited,026837817
+CUST_0023,ร้าน กรุงเทพ 23,Office,"687 Sukhumvit Road, Bangkok",13.69225710611394,100.48527739730125,08:00,18:00,8,medium,limited,029312590
+CUST_0024,ห้าง สุขใจ 24,Warehouse,"834 Sukhumvit Road, Bangkok",13.699653995228392,100.45677583204932,08:00,any,17,easy,limited,025234550
+CUST_0025,บริษัท สุขใจ 25,Warehouse,"886 Sukhumvit Road, Bangkok",13.75871816973499,100.56611767005562,08:00,any,22,medium,good,024147112
+CUST_0026,ร้าน สุขใจ 26,Supermarket,"641 Sukhumvit Road, Bangkok",13.716029164224329,100.49253615686825,any,17:00,12,easy,limited,023198037
+CUST_0027,ร้าน สุขใจ 27,Warehouse,"125 Sukhumvit Road, Bangkok",13.703410790060925,100.6422140634939,08:00,18:00,17,hard,good,026213522
+CUST_0028,บริษัท สุขใจ 28,Supermarket,"96 Sukhumvit Road, Bangkok",13.817191610667015,100.62212640357815,09:00,17:00,18,medium,good,023583206
+CUST_0029,ห้าง กรุงเทพ 29,Office,"522 Sukhumvit Road, Bangkok",13.949062275553784,100.55043900206626,10:00,any,2,medium,limited,025089126
+CUST_0030,ห้าง ไทย 30,Office,"393 Sukhumvit Road, Bangkok",13.742981077880584,100.52946362309153,09:00,18:00,4,easy,limited,027961578
+CUST_0031,ห้าง กรุงเทพ 31,Warehouse,"841 Sukhumvit Road, Bangkok",13.712971677928676,100.62961085788815,08:00,19:00,24,hard,limited,029214801
+CUST_0032,ร้าน สุขใจ 32,Restaurant,"354 Sukhumvit Road, Bangkok",13.790469548532414,100.57499519741022,10:00,any,9,medium,limited,024165061
+CUST_0033,ห้าง สุขใจ 33,Restaurant,"240 Sukhumvit Road, Bangkok",13.791620083533,100.56296822665253,any,17:00,6,medium,difficult,028935224
+CUST_0034,ร้าน ไทย 34,Office,"508 Sukhumvit Road, Bangkok",13.738213403766292,100.59281183995797,08:00,18:00,3,hard,difficult,026569946
+CUST_0035,ร้าน สยาม 35,Retail Store,"539 Sukhumvit Road, Bangkok",13.807317080798274,100.53815254938765,any,17:00,8,hard,good,027878299
+CUST_0036,บริษัท สุขใจ 36,Restaurant,"801 Sukhumvit Road, Bangkok",13.799103584646375,100.60307125621325,10:00,19:00,8,hard,difficult,027668663
+CUST_0037,ร้าน สุขใจ 37,Retail Store,"978 Sukhumvit Road, Bangkok",13.704578439148582,100.62235712420271,10:00,any,13,hard,good,022147909
+CUST_0038,ห้าง กรุงเทพ 38,Restaurant,"233 Sukhumvit Road, Bangkok",13.875973866224236,100.50446037094406,08:00,any,7,easy,difficult,022686231
+CUST_0039,บริษัท กรุงเทพ 39,Office,"926 Sukhumvit Road, Bangkok",13.843199862971705,100.53174683421962,08:00,17:00,8,medium,good,025921894
+CUST_0040,ร้าน สุขใจ 40,Warehouse,"150 Sukhumvit Road, Bangkok",13.943679430684787,100.61795777189131,09:00,any,23,hard,difficult,024020853
+CUST_0041,บริษัท สยาม 41,Restaurant,"625 Sukhumvit Road, Bangkok",13.847677182573046,100.4554191985007,any,18:00,11,medium,difficult,023401116
+CUST_0042,ร้าน กรุงเทพ 42,Restaurant,"471 Sukhumvit Road, Bangkok",13.72616656921299,100.48922261993869,10:00,17:00,11,medium,limited,023650391
+CUST_0043,ร้าน กรุงเทพ 43,Retail Store,"602 Sukhumvit Road, Bangkok",13.655913161326309,100.47082171639691,10:00,any,13,hard,limited,028664433
+CUST_0044,บริษัท สุขใจ 44,Warehouse,"874 Sukhumvit Road, Bangkok",13.82083305532905,100.6274920965027,any,17:00,20,easy,limited,027022335
+CUST_0045,ร้าน กรุงเทพ 45,Supermarket,"23 Sukhumvit Road, Bangkok",13.721454834314018,100.46988827855188,any,19:00,19,easy,difficult,021822825
+CUST_0046,ห้าง สุขใจ 46,Supermarket,"853 Sukhumvit Road, Bangkok",13.946618634586633,100.5706394804354,10:00,18:00,17,hard,limited,024674286
+CUST_0047,ห้าง กรุงเทพ 47,Restaurant,"695 Sukhumvit Road, Bangkok",13.899065959370096,100.5294367059237,09:00,17:00,9,hard,difficult,021661401
+CUST_0048,ร้าน สยาม 48,Warehouse,"594 Sukhumvit Road, Bangkok",13.692324554633315,100.53127846165471,10:00,18:00,23,easy,limited,026481437
+CUST_0049,บริษัท ไทย 49,Office,"136 Sukhumvit Road, Bangkok",13.918900745556336,100.45260038470215,10:00,19:00,8,easy,limited,029084065
+CUST_0050,ห้าง กรุงเทพ 50,Warehouse,"824 Sukhumvit Road, Bangkok",13.8707713839588,100.61962561909338,08:00,any,24,easy,good,024785186
+CUST_0051,ห้าง กรุงเทพ 51,Office,"93 Sukhumvit Road, Bangkok",13.70443063052694,100.56660831219395,any,17:00,5,medium,difficult,023073474
+CUST_0052,ร้าน กรุงเทพ 52,Office,"599 Sukhumvit Road, Bangkok",13.861183840541553,100.63212480070807,any,19:00,6,easy,difficult,024922880
+CUST_0053,บริษัท กรุงเทพ 53,Office,"938 Sukhumvit Road, Bangkok",13.752545205509362,100.50188468668627,09:00,17:00,3,hard,limited,026069909
+CUST_0054,บริษัท ไทย 54,Office,"47 Sukhumvit Road, Bangkok",13.758917763658527,100.45684562216411,08:00,19:00,5,medium,good,022630611
+CUST_0055,ห้าง ไทย 55,Restaurant,"398 Sukhumvit Road, Bangkok",13.837244672354739,100.53188233043825,any,19:00,10,hard,difficult,028031780
+CUST_0056,ห้าง ไทย 56,Supermarket,"907 Sukhumvit Road, Bangkok",13.758827368399784,100.62221360399495,any,17:00,14,medium,difficult,027847048
+CUST_0057,บริษัท กรุงเทพ 57,Warehouse,"223 Sukhumvit Road, Bangkok",13.934535992088646,100.60272115883195,any,any,24,easy,limited,022666893
+CUST_0058,ห้าง กรุงเทพ 58,Warehouse,"63 Sukhumvit Road, Bangkok",13.684271377776119,100.56315532399331,any,19:00,19,easy,good,028628891
+CUST_0059,ห้าง ไทย 59,Retail Store,"658 Sukhumvit Road, Bangkok",13.918365668068226,100.60997105118946,08:00,17:00,7,medium,good,023112652
+CUST_0060,บริษัท สยาม 60,Supermarket,"850 Sukhumvit Road, Bangkok",13.795433510145104,100.55249153117639,09:00,18:00,12,easy,limited,023475548
+CUST_0061,บริษัท กรุงเทพ 61,Supermarket,"880 Sukhumvit Road, Bangkok",13.81249026439826,100.57669564396524,09:00,18:00,18,hard,limited,023927575
+CUST_0062,ห้าง สยาม 62,Retail Store,"135 Sukhumvit Road, Bangkok",13.715406932248227,100.57901083355387,08:00,19:00,12,easy,difficult,026431983
+CUST_0063,บริษัท กรุงเทพ 63,Retail Store,"54 Sukhumvit Road, Bangkok",13.945320654211065,100.55513803646055,09:00,any,11,hard,good,022066326
+CUST_0064,ร้าน กรุงเทพ 64,Office,"526 Sukhumvit Road, Bangkok",13.857366557282896,100.58663677128911,08:00,any,7,hard,good,021727544
+CUST_0065,ร้าน สุขใจ 65,Supermarket,"659 Sukhumvit Road, Bangkok",13.92428964196815,100.47355021657803,08:00,17:00,15,medium,limited,028151684
+CUST_0066,ร้าน สุขใจ 66,Retail Store,"76 Sukhumvit Road, Bangkok",13.799427226053302,100.46343507998314,08:00,19:00,11,hard,good,022101965
+CUST_0067,ร้าน กรุงเทพ 67,Restaurant,"391 Sukhumvit Road, Bangkok",13.845426116505559,100.61594836074144,10:00,any,11,hard,difficult,028217547
+CUST_0068,ห้าง สยาม 68,Retail Store,"874 Sukhumvit Road, Bangkok",13.681973619038603,100.4780037077321,09:00,any,9,medium,good,027942639
+CUST_0069,ร้าน สุขใจ 69,Warehouse,"426 Sukhumvit Road, Bangkok",13.92000559255443,100.6247780155125,08:00,19:00,24,medium,limited,025276341
+CUST_0070,บริษัท สุขใจ 70,Warehouse,"69 Sukhumvit Road, Bangkok",13.72521919816848,100.5766196126715,08:00,17:00,21,easy,limited,022620082
+CUST_0071,บริษัท สยาม 71,Warehouse,"601 Sukhumvit Road, Bangkok",13.702611383587035,100.632882389185,10:00,17:00,18,medium,limited,028095702
+CUST_0072,ร้าน กรุงเทพ 72,Retail Store,"361 Sukhumvit Road, Bangkok",13.771314450464708,100.60418227541285,08:00,18:00,12,easy,difficult,029089795
+CUST_0073,บริษัท กรุงเทพ 73,Restaurant,"866 Sukhumvit Road, Bangkok",13.664089790032516,100.48325667375121,10:00,17:00,7,medium,difficult,024794319
+CUST_0074,ห้าง สยาม 74,Office,"624 Sukhumvit Road, Bangkok",13.70531127620369,100.46806739211553,10:00,17:00,4,easy,limited,026183902
+CUST_0075,ร้าน สยาม 75,Warehouse,"186 Sukhumvit Road, Bangkok",13.723604732904397,100.5278591228084,09:00,any,24,easy,good,021514340
+CUST_0076,ห้าง ไทย 76,Retail Store,"386 Sukhumvit Road, Bangkok",13.781158018907172,100.6331027354584,any,any,9,medium,good,027208460
+CUST_0077,ห้าง กรุงเทพ 77,Warehouse,"796 Sukhumvit Road, Bangkok",13.739136514686953,100.56328092805938,08:00,17:00,18,easy,good,021834876
+CUST_0078,ร้าน สุขใจ 78,Retail Store,"678 Sukhumvit Road, Bangkok",13.768994811915617,100.64081738730793,any,any,12,hard,limited,027948850
+CUST_0079,บริษัท สยาม 79,Warehouse,"354 Sukhumvit Road, Bangkok",13.869771629163075,100.49298807571816,any,17:00,20,medium,difficult,029164342
+CUST_0080,ห้าง กรุงเทพ 80,Supermarket,"47 Sukhumvit Road, Bangkok",13.811952833672457,100.48240277557832,09:00,any,15,hard,good,021128967
+CUST_0081,ร้าน ไทย 81,Restaurant,"786 Sukhumvit Road, Bangkok",13.665427744045276,100.54927324944025,09:00,19:00,9,medium,limited,023013003
+CUST_0082,ร้าน สุขใจ 82,Retail Store,"180 Sukhumvit Road, Bangkok",13.696401642264972,100.574666510181,09:00,any,8,hard,difficult,024860617
+CUST_0083,ห้าง กรุงเทพ 83,Supermarket,"74 Sukhumvit Road, Bangkok",13.681979475940132,100.46502755634717,any,17:00,12,medium,good,028713396
+CUST_0084,ร้าน สุขใจ 84,Retail Store,"588 Sukhumvit Road, Bangkok",13.773838065182026,100.59098510993779,any,any,14,medium,good,027795314
+CUST_0085,ร้าน ไทย 85,Retail Store,"821 Sukhumvit Road, Bangkok",13.780448201581123,100.49928040664783,any,19:00,9,easy,limited,022776088
+CUST_0086,ร้าน สุขใจ 86,Restaurant,"537 Sukhumvit Road, Bangkok",13.673329603223687,100.45046787812515,08:00,any,7,medium,difficult,026696087
+CUST_0087,ร้าน ไทย 87,Restaurant,"79 Sukhumvit Road, Bangkok",13.731643541168989,100.56804613337383,08:00,18:00,7,medium,limited,023477824
+CUST_0088,บริษัท ไทย 88,Restaurant,"263 Sukhumvit Road, Bangkok",13.744378967042824,100.61148605036335,09:00,18:00,5,hard,good,022264218
+CUST_0089,ห้าง สุขใจ 89,Restaurant,"476 Sukhumvit Road, Bangkok",13.691045589275689,100.64004747076416,any,19:00,11,hard,limited,023532644
+CUST_0090,บริษัท สุขใจ 90,Office,"453 Sukhumvit Road, Bangkok",13.80639020022407,100.46734104237244,10:00,19:00,9,hard,good,026904610
+CUST_0091,บริษัท กรุงเทพ 91,Supermarket,"473 Sukhumvit Road, Bangkok",13.911883750762922,100.59644497728192,any,17:00,16,easy,limited,025816353
+CUST_0092,ห้าง สยาม 92,Retail Store,"630 Sukhumvit Road, Bangkok",13.877710753661654,100.59482066585463,any,any,14,hard,difficult,021688246
+CUST_0093,ห้าง ไทย 93,Office,"330 Sukhumvit Road, Bangkok",13.904758695469596,100.49993360177184,any,18:00,2,easy,limited,022736473
+CUST_0094,ห้าง สยาม 94,Warehouse,"517 Sukhumvit Road, Bangkok",13.84399947573515,100.58863504229139,09:00,17:00,17,easy,difficult,028344365
+CUST_0095,ห้าง ไทย 95,Office,"373 Sukhumvit Road, Bangkok",13.933217801905982,100.4578853622737,10:00,19:00,3,medium,limited,026676858
+CUST_0096,บริษัท กรุงเทพ 96,Supermarket,"68 Sukhumvit Road, Bangkok",13.826479127090979,100.64987069991317,10:00,17:00,13,hard,difficult,027485471
+CUST_0097,ร้าน ไทย 97,Warehouse,"342 Sukhumvit Road, Bangkok",13.820383569165788,100.63309765951762,08:00,18:00,22,medium,limited,027575963
+CUST_0098,ห้าง สยาม 98,Restaurant,"318 Sukhumvit Road, Bangkok",13.68615677363594,100.59620473429166,any,19:00,7,easy,difficult,029831414
+CUST_0099,ห้าง สุขใจ 99,Retail Store,"521 Sukhumvit Road, Bangkok",13.927318858612958,100.64421164903308,10:00,17:00,13,medium,limited,024024309
+CUST_0100,ร้าน สุขใจ 100,Restaurant,"197 Sukhumvit Road, Bangkok",13.888602551387729,100.59901290962405,09:00,18:00,8,easy,good,025962567
+CUST_0101,ห้าง สยาม 101,Retail Store,"678 Sukhumvit Road, Bangkok",13.90336481956052,100.51382009464865,10:00,18:00,8,hard,limited,023587931
+CUST_0102,บริษัท ไทย 102,Restaurant,"739 Sukhumvit Road, Bangkok",13.843363995187746,100.58003347008865,any,17:00,12,medium,limited,024985095
+CUST_0103,ห้าง กรุงเทพ 103,Office,"771 Sukhumvit Road, Bangkok",13.719002651186312,100.47411337715546,any,18:00,3,hard,good,026192009
+CUST_0104,บริษัท กรุงเทพ 104,Office,"695 Sukhumvit Road, Bangkok",13.915499506956984,100.55605302652698,any,any,3,medium,limited,029437374
+CUST_0105,ร้าน ไทย 105,Supermarket,"837 Sukhumvit Road, Bangkok",13.867430031458628,100.4630712681598,09:00,18:00,18,medium,good,029062973
+CUST_0106,ห้าง สยาม 106,Warehouse,"729 Sukhumvit Road, Bangkok",13.891193093820268,100.55768029807616,08:00,19:00,22,easy,good,025576678
+CUST_0107,ห้าง ไทย 107,Office,"851 Sukhumvit Road, Bangkok",13.74562575087962,100.57517827528741,any,17:00,9,easy,limited,026865064
+CUST_0108,ร้าน สยาม 108,Retail Store,"406 Sukhumvit Road, Bangkok",13.77804511699646,100.6253330755725,10:00,18:00,8,medium,good,027289990
+CUST_0109,บริษัท กรุงเทพ 109,Restaurant,"954 Sukhumvit Road, Bangkok",13.657320234466962,100.6240197747802,08:00,19:00,10,easy,good,021642620
+CUST_0110,ร้าน ไทย 110,Warehouse,"778 Sukhumvit Road, Bangkok",13.650071257072765,100.48709458191534,any,any,18,hard,good,022329187
+CUST_0111,ร้าน ไทย 111,Retail Store,"856 Sukhumvit Road, Bangkok",13.931720309553867,100.60975664715474,09:00,any,13,easy,limited,024986941
+CUST_0112,บริษัท สยาม 112,Warehouse,"245 Sukhumvit Road, Bangkok",13.65284563008855,100.46053676719545,any,any,17,easy,good,029385742
+CUST_0113,ห้าง สยาม 113,Supermarket,"648 Sukhumvit Road, Bangkok",13.770579274082772,100.54597512406079,09:00,18:00,12,medium,limited,021026245
+CUST_0114,ร้าน ไทย 114,Supermarket,"585 Sukhumvit Road, Bangkok",13.824227162168198,100.5043373942138,any,18:00,12,hard,difficult,022436363
+CUST_0115,ร้าน สยาม 115,Supermarket,"977 Sukhumvit Road, Bangkok",13.880482024159354,100.53355335643347,08:00,any,18,medium,good,027490791
+CUST_0116,ร้าน สยาม 116,Warehouse,"366 Sukhumvit Road, Bangkok",13.806755757490357,100.59645436143694,08:00,19:00,17,easy,difficult,022739191
+CUST_0117,ห้าง กรุงเทพ 117,Supermarket,"137 Sukhumvit Road, Bangkok",13.683142233939419,100.52092443152816,08:00,19:00,17,hard,limited,023937508
+CUST_0118,ห้าง สุขใจ 118,Office,"647 Sukhumvit Road, Bangkok",13.90584654650757,100.59311066304686,09:00,18:00,6,easy,difficult,028678589
+CUST_0119,ร้าน ไทย 119,Retail Store,"45 Sukhumvit Road, Bangkok",13.662627956890908,100.45357478694669,09:00,17:00,12,medium,limited,029646701
+CUST_0120,ห้าง สุขใจ 120,Office,"260 Sukhumvit Road, Bangkok",13.663530203166097,100.47189351973583,08:00,18:00,2,medium,limited,021802018
+CUST_0121,ร้าน สยาม 121,Warehouse,"819 Sukhumvit Road, Bangkok",13.85389418480792,100.49365077757301,10:00,any,18,medium,difficult,028377556
+CUST_0122,ร้าน ไทย 122,Office,"509 Sukhumvit Road, Bangkok",13.889396796643014,100.50179653032036,any,19:00,5,hard,limited,022385991
+CUST_0123,บริษัท สุขใจ 123,Office,"617 Sukhumvit Road, Bangkok",13.775274232735478,100.62582366151244,09:00,19:00,7,medium,good,022343333
+CUST_0124,ห้าง กรุงเทพ 124,Warehouse,"314 Sukhumvit Road, Bangkok",13.830239533932659,100.63074479343506,any,any,18,easy,difficult,028447546
+CUST_0125,ร้าน สยาม 125,Warehouse,"745 Sukhumvit Road, Bangkok",13.700110183827622,100.6482337252274,10:00,any,19,medium,difficult,021962308
+CUST_0126,ห้าง สุขใจ 126,Retail Store,"373 Sukhumvit Road, Bangkok",13.770474070927646,100.61756514705665,09:00,17:00,12,easy,difficult,028351320
+CUST_0127,บริษัท สยาม 127,Retail Store,"242 Sukhumvit Road, Bangkok",13.832321038463657,100.55253770220331,10:00,19:00,8,medium,difficult,021543335
+CUST_0128,บริษัท สุขใจ 128,Supermarket,"972 Sukhumvit Road, Bangkok",13.664083607144343,100.52681812229825,10:00,19:00,12,medium,good,023310140
+CUST_0129,ร้าน สุขใจ 129,Supermarket,"322 Sukhumvit Road, Bangkok",13.705931478643276,100.60591689471336,10:00,18:00,17,easy,good,024121368
+CUST_0130,ห้าง สุขใจ 130,Office,"936 Sukhumvit Road, Bangkok",13.890230906138962,100.57595558459923,08:00,19:00,8,medium,difficult,028487220
+CUST_0131,ห้าง กรุงเทพ 131,Restaurant,"711 Sukhumvit Road, Bangkok",13.915135765489028,100.63555045663905,any,18:00,6,easy,good,022242387
+CUST_0132,บริษัท สุขใจ 132,Office,"90 Sukhumvit Road, Bangkok",13.807509450258081,100.50204667359031,10:00,19:00,4,hard,good,025871470
+CUST_0133,บริษัท ไทย 133,Warehouse,"813 Sukhumvit Road, Bangkok",13.877471542711227,100.58920412361077,10:00,18:00,24,easy,good,023329967
+CUST_0134,ร้าน สยาม 134,Restaurant,"370 Sukhumvit Road, Bangkok",13.91923084441386,100.54267614964313,10:00,any,9,hard,good,022446455
+CUST_0135,ร้าน สุขใจ 135,Retail Store,"735 Sukhumvit Road, Bangkok",13.717145284446786,100.55739488457868,any,any,7,medium,difficult,022237331
+CUST_0136,ร้าน สยาม 136,Restaurant,"461 Sukhumvit Road, Bangkok",13.918476432368351,100.62202536328358,any,19:00,7,easy,difficult,024052834
+CUST_0137,ร้าน สยาม 137,Restaurant,"852 Sukhumvit Road, Bangkok",13.913238258789114,100.50312000851774,08:00,18:00,8,medium,good,023717354
+CUST_0138,ห้าง ไทย 138,Warehouse,"355 Sukhumvit Road, Bangkok",13.793003048499111,100.45887533270665,10:00,17:00,18,medium,good,025604524
+CUST_0139,ห้าง กรุงเทพ 139,Restaurant,"630 Sukhumvit Road, Bangkok",13.908638285179634,100.61190321494497,08:00,18:00,12,hard,difficult,023586950
+CUST_0140,ห้าง กรุงเทพ 140,Restaurant,"863 Sukhumvit Road, Bangkok",13.929476846495696,100.5970425309047,08:00,17:00,6,easy,good,025440189
+CUST_0141,ห้าง สุขใจ 141,Restaurant,"633 Sukhumvit Road, Bangkok",13.772535963921209,100.52453770340247,08:00,any,12,hard,difficult,025859883
+CUST_0142,ร้าน ไทย 142,Warehouse,"825 Sukhumvit Road, Bangkok",13.858714287854925,100.45975671633464,any,19:00,18,medium,good,022005173
+CUST_0143,ร้าน สุขใจ 143,Restaurant,"496 Sukhumvit Road, Bangkok",13.674313864772294,100.49403664038996,any,18:00,9,medium,difficult,023410360
+CUST_0144,ห้าง กรุงเทพ 144,Warehouse,"752 Sukhumvit Road, Bangkok",13.91834397929042,100.64829506702901,10:00,any,18,easy,limited,029639932
+CUST_0145,บริษัท กรุงเทพ 145,Supermarket,"248 Sukhumvit Road, Bangkok",13.798543958104192,100.54611731546534,any,17:00,16,medium,limited,025159388
+CUST_0146,บริษัท สยาม 146,Restaurant,"298 Sukhumvit Road, Bangkok",13.921954115833373,100.56426378838393,any,any,12,easy,good,026493461
+CUST_0147,ห้าง กรุงเทพ 147,Supermarket,"195 Sukhumvit Road, Bangkok",13.853404845767718,100.56314639279917,09:00,any,16,hard,limited,029367799
+CUST_0148,ร้าน สยาม 148,Warehouse,"93 Sukhumvit Road, Bangkok",13.87017297568611,100.55425206243609,any,any,24,easy,good,026920597
+CUST_0149,บริษัท กรุงเทพ 149,Retail Store,"507 Sukhumvit Road, Bangkok",13.847535550397527,100.62011634581886,any,19:00,9,hard,good,022803501
+CUST_0150,บริษัท กรุงเทพ 150,Office,"745 Sukhumvit Road, Bangkok",13.698120031599021,100.51680177574904,10:00,any,6,medium,good,027720644
+CUST_0151,ห้าง ไทย 151,Retail Store,"372 Sukhumvit Road, Bangkok",13.859241438500785,100.58602815435206,10:00,17:00,13,medium,difficult,028555692
+CUST_0152,ร้าน สยาม 152,Supermarket,"132 Sukhumvit Road, Bangkok",13.859697221411876,100.487844307957,08:00,any,16,medium,limited,027133857
+CUST_0153,บริษัท สุขใจ 153,Restaurant,"513 Sukhumvit Road, Bangkok",13.914261227759678,100.62436870554905,08:00,17:00,7,easy,good,026587495
+CUST_0154,ห้าง สุขใจ 154,Office,"153 Sukhumvit Road, Bangkok",13.91372144406844,100.45102903415095,09:00,19:00,9,hard,limited,023726331
+CUST_0155,ห้าง กรุงเทพ 155,Office,"608 Sukhumvit Road, Bangkok",13.750535656277743,100.59870165125832,10:00,any,8,hard,difficult,026029651
+CUST_0156,บริษัท กรุงเทพ 156,Office,"340 Sukhumvit Road, Bangkok",13.650336033444033,100.56123634700796,08:00,any,6,hard,limited,021447065
+CUST_0157,ร้าน กรุงเทพ 157,Supermarket,"991 Sukhumvit Road, Bangkok",13.80224032012825,100.45127717434337,09:00,17:00,19,hard,limited,023860717
+CUST_0158,ห้าง สุขใจ 158,Supermarket,"152 Sukhumvit Road, Bangkok",13.675229467340396,100.51528671530066,09:00,17:00,12,hard,difficult,022843740
+CUST_0159,บริษัท สุขใจ 159,Restaurant,"322 Sukhumvit Road, Bangkok",13.839544058105,100.50196071621284,any,18:00,8,medium,difficult,024420734
+CUST_0160,ห้าง สุขใจ 160,Office,"894 Sukhumvit Road, Bangkok",13.652721721395817,100.61373588409997,08:00,18:00,9,hard,good,026453426
+CUST_0161,ห้าง สุขใจ 161,Office,"322 Sukhumvit Road, Bangkok",13.682094191648087,100.60220558050041,09:00,any,3,hard,limited,026943949
+CUST_0162,ห้าง สุขใจ 162,Warehouse,"197 Sukhumvit Road, Bangkok",13.779672235167753,100.61802430054824,09:00,19:00,20,hard,limited,024772642
+CUST_0163,ร้าน ไทย 163,Warehouse,"707 Sukhumvit Road, Bangkok",13.839786567940184,100.63640562110201,any,19:00,21,medium,limited,025587856
+CUST_0164,บริษัท สุขใจ 164,Warehouse,"918 Sukhumvit Road, Bangkok",13.886642094561223,100.48475069506152,any,19:00,20,easy,limited,021705758
+CUST_0165,ห้าง สยาม 165,Warehouse,"355 Sukhumvit Road, Bangkok",13.670351117731553,100.51019271338937,any,19:00,17,hard,limited,024590102
+CUST_0166,ห้าง กรุงเทพ 166,Restaurant,"956 Sukhumvit Road, Bangkok",13.88129528775964,100.59171440092054,10:00,18:00,10,easy,difficult,025014486
+CUST_0167,บริษัท ไทย 167,Restaurant,"654 Sukhumvit Road, Bangkok",13.753764917085887,100.5741831035535,09:00,17:00,7,easy,limited,026541407
+CUST_0168,บริษัท ไทย 168,Office,"6 Sukhumvit Road, Bangkok",13.905724397759593,100.64802967455013,09:00,any,8,hard,limited,029010256
+CUST_0169,ร้าน กรุงเทพ 169,Restaurant,"293 Sukhumvit Road, Bangkok",13.940663356585707,100.59993036634859,08:00,17:00,7,hard,difficult,024896008
+CUST_0170,ห้าง สยาม 170,Supermarket,"936 Sukhumvit Road, Bangkok",13.828318757768564,100.52672245208113,09:00,any,16,easy,good,027660463
+CUST_0171,บริษัท กรุงเทพ 171,Office,"898 Sukhumvit Road, Bangkok",13.6566370654587,100.5147220438299,08:00,17:00,8,medium,difficult,022800206
+CUST_0172,ร้าน สุขใจ 172,Warehouse,"657 Sukhumvit Road, Bangkok",13.895635693007128,100.50050174993768,any,18:00,23,hard,limited,025577446
+CUST_0173,บริษัท กรุงเทพ 173,Restaurant,"167 Sukhumvit Road, Bangkok",13.783770811913024,100.50472533325633,any,19:00,9,hard,good,021236293
+CUST_0174,ร้าน ไทย 174,Warehouse,"180 Sukhumvit Road, Bangkok",13.933291090487348,100.47043872393874,any,any,17,hard,limited,022455218
+CUST_0175,ห้าง สยาม 175,Office,"190 Sukhumvit Road, Bangkok",13.6990871463575,100.60896190975,09:00,any,6,medium,good,021114590
+CUST_0176,ร้าน ไทย 176,Warehouse,"458 Sukhumvit Road, Bangkok",13.739512329296998,100.6179894329345,10:00,19:00,23,medium,difficult,021191859
+CUST_0177,ห้าง กรุงเทพ 177,Warehouse,"710 Sukhumvit Road, Bangkok",13.854149790622413,100.58090224285623,09:00,17:00,19,hard,good,028808032
+CUST_0178,บริษัท สุขใจ 178,Warehouse,"703 Sukhumvit Road, Bangkok",13.910416296759687,100.64264733068804,10:00,17:00,24,hard,limited,027166363
+CUST_0179,บริษัท ไทย 179,Supermarket,"981 Sukhumvit Road, Bangkok",13.77970044031278,100.63872318403352,09:00,any,19,easy,limited,027268384
+CUST_0180,ห้าง สุขใจ 180,Office,"776 Sukhumvit Road, Bangkok",13.90720802762775,100.64290409445405,09:00,18:00,4,hard,difficult,022373555
+CUST_0181,ร้าน กรุงเทพ 181,Supermarket,"80 Sukhumvit Road, Bangkok",13.732264560704602,100.64679552959197,08:00,17:00,12,hard,difficult,024391627
+CUST_0182,ห้าง ไทย 182,Supermarket,"169 Sukhumvit Road, Bangkok",13.746222822131438,100.59488453452283,10:00,any,13,easy,difficult,024446065
+CUST_0183,ร้าน สยาม 183,Supermarket,"921 Sukhumvit Road, Bangkok",13.713931411207525,100.4562268165769,any,17:00,12,medium,good,029610869
+CUST_0184,ร้าน สยาม 184,Office,"573 Sukhumvit Road, Bangkok",13.864477212060674,100.56255005726868,any,19:00,5,hard,good,027642917
+CUST_0185,บริษัท ไทย 185,Warehouse,"593 Sukhumvit Road, Bangkok",13.791962972007466,100.64363868558296,08:00,17:00,22,medium,limited,022069713
+CUST_0186,บริษัท สยาม 186,Supermarket,"957 Sukhumvit Road, Bangkok",13.711110374782882,100.46823289808124,any,17:00,19,medium,limited,024019585
+CUST_0187,ห้าง สุขใจ 187,Restaurant,"384 Sukhumvit Road, Bangkok",13.881276553393215,100.61895664562338,any,any,8,medium,limited,022346371
+CUST_0188,บริษัท กรุงเทพ 188,Supermarket,"122 Sukhumvit Road, Bangkok",13.655358567743496,100.60935956557282,09:00,any,15,hard,good,024736121
+CUST_0189,บริษัท กรุงเทพ 189,Retail Store,"475 Sukhumvit Road, Bangkok",13.659757853847376,100.63416956956314,any,any,9,easy,good,028728009
+CUST_0190,บริษัท กรุงเทพ 190,Warehouse,"194 Sukhumvit Road, Bangkok",13.705637662402996,100.54241945815313,08:00,17:00,22,hard,limited,021262492
+CUST_0191,บริษัท สยาม 191,Restaurant,"104 Sukhumvit Road, Bangkok",13.685192456688718,100.47503715844051,08:00,any,8,hard,difficult,021816653
+CUST_0192,ห้าง สยาม 192,Restaurant,"412 Sukhumvit Road, Bangkok",13.724261986681013,100.56168253451665,any,18:00,12,hard,good,021946973
+CUST_0193,ห้าง กรุงเทพ 193,Restaurant,"240 Sukhumvit Road, Bangkok",13.797478364022432,100.46284178741503,10:00,19:00,10,easy,limited,023403511
+CUST_0194,บริษัท สุขใจ 194,Supermarket,"308 Sukhumvit Road, Bangkok",13.747777639185623,100.56805278777713,10:00,17:00,19,hard,difficult,023938247
+CUST_0195,ห้าง สุขใจ 195,Office,"49 Sukhumvit Road, Bangkok",13.743108587677073,100.54104402981636,10:00,any,9,hard,limited,027984768
+CUST_0196,บริษัท กรุงเทพ 196,Office,"386 Sukhumvit Road, Bangkok",13.789379578990744,100.58609132527187,09:00,any,3,easy,good,026045519
+CUST_0197,ร้าน สยาม 197,Restaurant,"576 Sukhumvit Road, Bangkok",13.793981650415137,100.57000410962387,any,any,12,hard,difficult,023249703
+CUST_0198,บริษัท กรุงเทพ 198,Office,"209 Sukhumvit Road, Bangkok",13.847095157269347,100.60141185352225,10:00,17:00,5,medium,limited,022551288
+CUST_0199,ห้าง ไทย 199,Supermarket,"53 Sukhumvit Road, Bangkok",13.883955296668004,100.45792376506968,10:00,any,17,hard,difficult,021663497
+CUST_0200,บริษัท ไทย 200,Retail Store,"491 Sukhumvit Road, Bangkok",13.874748491730385,100.47918441480704,09:00,19:00,10,medium,good,024553544
+CUST_0201,ห้าง สยาม 201,Restaurant,"765 Sukhumvit Road, Bangkok",13.945998777980144,100.47849910858031,any,18:00,12,hard,difficult,024431161
+CUST_0202,บริษัท กรุงเทพ 202,Office,"795 Sukhumvit Road, Bangkok",13.794706914465477,100.49206991598378,10:00,any,2,medium,difficult,027027375
+CUST_0203,ร้าน กรุงเทพ 203,Warehouse,"526 Sukhumvit Road, Bangkok",13.817894605046074,100.45195416948384,any,any,20,easy,difficult,028876742
+CUST_0204,บริษัท กรุงเทพ 204,Warehouse,"321 Sukhumvit Road, Bangkok",13.671724881643902,100.5568484411953,any,17:00,17,hard,good,023448176
+CUST_0205,ร้าน สุขใจ 205,Retail Store,"303 Sukhumvit Road, Bangkok",13.755188079362755,100.45664062175828,09:00,18:00,10,medium,good,027372653
+CUST_0206,บริษัท สุขใจ 206,Supermarket,"564 Sukhumvit Road, Bangkok",13.757340405278482,100.51441894044387,10:00,19:00,17,medium,difficult,029230828
+CUST_0207,บริษัท กรุงเทพ 207,Office,"174 Sukhumvit Road, Bangkok",13.820262254478466,100.58789299382745,09:00,any,3,easy,difficult,021985360
+CUST_0208,บริษัท สยาม 208,Supermarket,"968 Sukhumvit Road, Bangkok",13.896432218402959,100.45823669905586,08:00,17:00,15,medium,good,024882808
+CUST_0209,ห้าง ไทย 209,Retail Store,"10 Sukhumvit Road, Bangkok",13.68137035210032,100.57728604990874,09:00,any,9,medium,good,029106820
+CUST_0210,บริษัท สยาม 210,Office,"545 Sukhumvit Road, Bangkok",13.91886639080551,100.5689553274754,any,17:00,2,easy,difficult,025609384
+CUST_0211,ร้าน สยาม 211,Supermarket,"515 Sukhumvit Road, Bangkok",13.665591385095443,100.55825926706022,any,18:00,13,easy,good,029797727
+CUST_0212,บริษัท ไทย 212,Restaurant,"635 Sukhumvit Road, Bangkok",13.930560544589838,100.63947009252621,10:00,19:00,8,medium,limited,022325722
+CUST_0213,ร้าน สุขใจ 213,Warehouse,"579 Sukhumvit Road, Bangkok",13.890518424920938,100.51789003850857,09:00,18:00,19,medium,difficult,022352527
+CUST_0214,บริษัท สุขใจ 214,Retail Store,"389 Sukhumvit Road, Bangkok",13.795319534272211,100.58216402365986,any,any,14,easy,difficult,021158547
+CUST_0215,บริษัท สุขใจ 215,Restaurant,"866 Sukhumvit Road, Bangkok",13.81427771284612,100.6134595539925,any,19:00,6,hard,good,029861040
+CUST_0216,บริษัท ไทย 216,Retail Store,"923 Sukhumvit Road, Bangkok",13.794271149434696,100.4581508212185,any,19:00,10,easy,good,025703878
+CUST_0217,ห้าง สยาม 217,Supermarket,"184 Sukhumvit Road, Bangkok",13.8694768565266,100.46632599640613,10:00,17:00,17,easy,difficult,023419132
+CUST_0218,บริษัท กรุงเทพ 218,Office,"167 Sukhumvit Road, Bangkok",13.827983594493054,100.58005883717469,09:00,any,2,hard,difficult,026565503
+CUST_0219,ห้าง ไทย 219,Office,"810 Sukhumvit Road, Bangkok",13.91153506997766,100.49384279747161,08:00,19:00,8,easy,good,028333124
+CUST_0220,บริษัท กรุงเทพ 220,Restaurant,"620 Sukhumvit Road, Bangkok",13.791054777809,100.598855813119,any,19:00,9,easy,difficult,025585666
+CUST_0221,ร้าน ไทย 221,Office,"365 Sukhumvit Road, Bangkok",13.886909552142743,100.58174155510018,any,any,4,easy,difficult,027376562
+CUST_0222,ห้าง กรุงเทพ 222,Retail Store,"818 Sukhumvit Road, Bangkok",13.69850176324404,100.45417222785831,09:00,17:00,9,easy,limited,023587398
+CUST_0223,ห้าง ไทย 223,Office,"758 Sukhumvit Road, Bangkok",13.71853642239939,100.64926678321136,any,19:00,2,medium,good,022535458
+CUST_0224,ร้าน สุขใจ 224,Retail Store,"369 Sukhumvit Road, Bangkok",13.79798305403514,100.4663052979105,10:00,17:00,9,easy,good,024143912
+CUST_0225,ร้าน สุขใจ 225,Office,"106 Sukhumvit Road, Bangkok",13.854068472729388,100.46443968179584,08:00,17:00,8,medium,difficult,022561359
+CUST_0226,ห้าง กรุงเทพ 226,Supermarket,"885 Sukhumvit Road, Bangkok",13.711073484102673,100.6180904812554,any,17:00,12,medium,limited,027506196
+CUST_0227,ห้าง ไทย 227,Retail Store,"586 Sukhumvit Road, Bangkok",13.910481751622514,100.59543381395326,09:00,any,11,easy,good,025511711
+CUST_0228,ร้าน สุขใจ 228,Warehouse,"150 Sukhumvit Road, Bangkok",13.903873587605714,100.5757529636412,08:00,18:00,20,medium,limited,028064924
+CUST_0229,ร้าน สยาม 229,Warehouse,"370 Sukhumvit Road, Bangkok",13.761311628895381,100.64752991274722,10:00,18:00,24,hard,difficult,029318184
+CUST_0230,ห้าง ไทย 230,Supermarket,"469 Sukhumvit Road, Bangkok",13.812990157008986,100.55279917356175,08:00,18:00,12,medium,good,027638609
+CUST_0231,ห้าง สุขใจ 231,Warehouse,"824 Sukhumvit Road, Bangkok",13.781584625756878,100.59505153208303,10:00,any,24,medium,limited,023283789
+CUST_0232,ร้าน ไทย 232,Warehouse,"491 Sukhumvit Road, Bangkok",13.831856614068352,100.56954471305117,10:00,18:00,20,medium,limited,025889688
+CUST_0233,ห้าง ไทย 233,Office,"334 Sukhumvit Road, Bangkok",13.776516278062036,100.50536555944701,any,19:00,4,medium,limited,022910720
+CUST_0234,บริษัท ไทย 234,Supermarket,"699 Sukhumvit Road, Bangkok",13.735156358582593,100.52183020593326,08:00,any,14,hard,good,028356053
+CUST_0235,ห้าง สยาม 235,Warehouse,"839 Sukhumvit Road, Bangkok",13.836889975069045,100.57631204401851,any,any,23,easy,difficult,026080688
+CUST_0236,ร้าน ไทย 236,Restaurant,"733 Sukhumvit Road, Bangkok",13.720737628187763,100.60520004140709,any,any,8,easy,limited,029040224
+CUST_0237,ร้าน สุขใจ 237,Supermarket,"557 Sukhumvit Road, Bangkok",13.922709756199692,100.48593662177406,08:00,19:00,15,hard,difficult,022425760
+CUST_0238,บริษัท กรุงเทพ 238,Retail Store,"171 Sukhumvit Road, Bangkok",13.76185459115668,100.55252304104117,08:00,any,11,medium,limited,022777454
+CUST_0239,บริษัท กรุงเทพ 239,Retail Store,"228 Sukhumvit Road, Bangkok",13.906315528010873,100.54845557128961,09:00,any,12,medium,limited,028768911
+CUST_0240,ห้าง ไทย 240,Supermarket,"354 Sukhumvit Road, Bangkok",13.679218017766066,100.53100415981606,08:00,any,17,easy,limited,027978909
+CUST_0241,บริษัท ไทย 241,Retail Store,"357 Sukhumvit Road, Bangkok",13.804445206178906,100.52184667387996,10:00,19:00,8,medium,good,029742856
+CUST_0242,ร้าน สุขใจ 242,Office,"100 Sukhumvit Road, Bangkok",13.678578452386388,100.58042464910609,any,any,2,medium,good,026037595
+CUST_0243,ห้าง สยาม 243,Retail Store,"24 Sukhumvit Road, Bangkok",13.940823696700585,100.50162668654023,10:00,17:00,11,hard,good,025092180
+CUST_0244,บริษัท ไทย 244,Supermarket,"339 Sukhumvit Road, Bangkok",13.652709121238866,100.56768252666812,any,any,15,easy,limited,024094587
+CUST_0245,ห้าง สุขใจ 245,Restaurant,"406 Sukhumvit Road, Bangkok",13.689262098215504,100.64396420901572,08:00,18:00,11,medium,difficult,028206700
+CUST_0246,บริษัท ไทย 246,Office,"211 Sukhumvit Road, Bangkok",13.720402211478465,100.62674193393215,10:00,17:00,7,hard,good,024136665
+CUST_0247,ร้าน ไทย 247,Warehouse,"469 Sukhumvit Road, Bangkok",13.700927371526262,100.55395478971121,08:00,19:00,18,hard,limited,029853588
+CUST_0248,ห้าง สุขใจ 248,Warehouse,"626 Sukhumvit Road, Bangkok",13.850817120437808,100.47915131364896,any,17:00,21,medium,limited,028681625
+CUST_0249,บริษัท กรุงเทพ 249,Supermarket,"941 Sukhumvit Road, Bangkok",13.724614281776288,100.5734289973208,08:00,18:00,12,medium,good,025002586
+CUST_0250,บริษัท ไทย 250,Warehouse,"383 Sukhumvit Road, Bangkok",13.725758334622626,100.52185014958326,09:00,any,20,medium,difficult,023313029
+CUST_0251,ร้าน สุขใจ 251,Supermarket,"191 Sukhumvit Road, Bangkok",13.661001428080063,100.59728040301313,any,18:00,16,hard,good,029214830
+CUST_0252,บริษัท ไทย 252,Warehouse,"323 Sukhumvit Road, Bangkok",13.810053577589908,100.606358065969,any,17:00,24,medium,good,029130388
+CUST_0253,บริษัท สุขใจ 253,Restaurant,"987 Sukhumvit Road, Bangkok",13.891701045885016,100.56707087287936,any,any,11,hard,limited,027973121
+CUST_0254,ร้าน ไทย 254,Office,"85 Sukhumvit Road, Bangkok",13.817442074878159,100.55798116790045,08:00,18:00,5,medium,good,025611266
+CUST_0255,ห้าง กรุงเทพ 255,Restaurant,"173 Sukhumvit Road, Bangkok",13.730924883455097,100.46141737121786,any,any,11,hard,difficult,022899365
+CUST_0256,บริษัท กรุงเทพ 256,Supermarket,"794 Sukhumvit Road, Bangkok",13.719339273728295,100.46033936744831,10:00,17:00,12,hard,limited,024666525
+CUST_0257,บริษัท ไทย 257,Office,"305 Sukhumvit Road, Bangkok",13.686632974203008,100.54043980565669,08:00,any,6,medium,limited,022459332
+CUST_0258,บริษัท ไทย 258,Office,"215 Sukhumvit Road, Bangkok",13.676566675266972,100.4706617914248,10:00,any,4,easy,difficult,023335975
+CUST_0259,บริษัท สยาม 259,Restaurant,"584 Sukhumvit Road, Bangkok",13.662471857715119,100.47966864019241,10:00,19:00,9,hard,difficult,023824903
+CUST_0260,ห้าง กรุงเทพ 260,Warehouse,"297 Sukhumvit Road, Bangkok",13.793969124477622,100.5871935471966,10:00,17:00,22,easy,limited,021994652
+CUST_0261,ห้าง ไทย 261,Warehouse,"719 Sukhumvit Road, Bangkok",13.935543535626971,100.57782398756311,09:00,18:00,17,easy,difficult,026403886
+CUST_0262,ห้าง สุขใจ 262,Restaurant,"502 Sukhumvit Road, Bangkok",13.82403366890864,100.5008449159795,09:00,19:00,7,hard,limited,027294347
+CUST_0263,บริษัท สยาม 263,Office,"413 Sukhumvit Road, Bangkok",13.796653974077076,100.58337285150922,10:00,19:00,5,medium,limited,026491002
+CUST_0264,บริษัท สยาม 264,Supermarket,"749 Sukhumvit Road, Bangkok",13.687722453541994,100.47654293076386,any,19:00,15,easy,difficult,027672565
+CUST_0265,ร้าน ไทย 265,Restaurant,"507 Sukhumvit Road, Bangkok",13.861404228820994,100.4903706904246,10:00,19:00,11,medium,limited,023191007
+CUST_0266,ร้าน กรุงเทพ 266,Supermarket,"916 Sukhumvit Road, Bangkok",13.698714568398696,100.48766981675313,08:00,17:00,18,easy,difficult,028710502
+CUST_0267,บริษัท ไทย 267,Retail Store,"452 Sukhumvit Road, Bangkok",13.851780635467538,100.53875004386092,any,17:00,11,medium,good,023213134
+CUST_0268,บริษัท กรุงเทพ 268,Warehouse,"96 Sukhumvit Road, Bangkok",13.939004049846119,100.5010613049457,10:00,19:00,17,easy,limited,023777050
+CUST_0269,ร้าน กรุงเทพ 269,Retail Store,"744 Sukhumvit Road, Bangkok",13.901434586894432,100.6389228438948,09:00,any,8,hard,good,022596917
+CUST_0270,บริษัท สุขใจ 270,Retail Store,"80 Sukhumvit Road, Bangkok",13.65525479725862,100.49882945808447,09:00,18:00,8,hard,difficult,028466983
+CUST_0271,บริษัท กรุงเทพ 271,Retail Store,"837 Sukhumvit Road, Bangkok",13.910671495343616,100.56412194932777,08:00,any,10,hard,good,029014480
+CUST_0272,บริษัท สุขใจ 272,Retail Store,"92 Sukhumvit Road, Bangkok",13.683932945722972,100.60910207433929,08:00,17:00,10,medium,limited,026020671
+CUST_0273,ร้าน ไทย 273,Restaurant,"657 Sukhumvit Road, Bangkok",13.852954015733173,100.49313503047955,09:00,17:00,12,hard,difficult,021142182
+CUST_0274,ห้าง ไทย 274,Supermarket,"451 Sukhumvit Road, Bangkok",13.898051665113563,100.58339430339818,10:00,18:00,12,hard,difficult,023539636
+CUST_0275,ห้าง สุขใจ 275,Office,"881 Sukhumvit Road, Bangkok",13.681977909092398,100.58156906092061,09:00,17:00,3,easy,good,023066235
+CUST_0276,ห้าง สุขใจ 276,Supermarket,"360 Sukhumvit Road, Bangkok",13.831486176807163,100.51362231072363,any,19:00,12,easy,good,025646746
+CUST_0277,บริษัท กรุงเทพ 277,Retail Store,"798 Sukhumvit Road, Bangkok",13.772072388216861,100.62415069006745,08:00,19:00,7,easy,difficult,029548370
+CUST_0278,ห้าง สุขใจ 278,Restaurant,"303 Sukhumvit Road, Bangkok",13.677144508586116,100.50773711910612,08:00,18:00,7,medium,limited,022891524
+CUST_0279,ร้าน สยาม 279,Restaurant,"541 Sukhumvit Road, Bangkok",13.913554668390404,100.53082806433021,08:00,19:00,10,medium,good,027490068
+CUST_0280,ร้าน กรุงเทพ 280,Supermarket,"560 Sukhumvit Road, Bangkok",13.927702449264213,100.5376344692824,09:00,any,13,easy,good,022133008
+CUST_0281,ร้าน ไทย 281,Retail Store,"41 Sukhumvit Road, Bangkok",13.878685540432985,100.60956272977174,08:00,any,9,hard,limited,029406206
+CUST_0282,ร้าน สุขใจ 282,Office,"85 Sukhumvit Road, Bangkok",13.91067018766217,100.52513445037636,09:00,19:00,7,easy,limited,022325761
+CUST_0283,บริษัท ไทย 283,Supermarket,"550 Sukhumvit Road, Bangkok",13.813346729388254,100.45115173209963,10:00,any,18,hard,difficult,022109227
+CUST_0284,ห้าง สุขใจ 284,Warehouse,"748 Sukhumvit Road, Bangkok",13.839062624498743,100.57196636109974,09:00,17:00,23,easy,good,028289425
+CUST_0285,ร้าน สยาม 285,Retail Store,"317 Sukhumvit Road, Bangkok",13.858640162006958,100.52771162025407,09:00,17:00,7,easy,difficult,023302031
+CUST_0286,บริษัท สุขใจ 286,Retail Store,"976 Sukhumvit Road, Bangkok",13.828945642495626,100.5591373776991,10:00,19:00,9,easy,limited,023129542
+CUST_0287,ห้าง สยาม 287,Warehouse,"790 Sukhumvit Road, Bangkok",13.718180888178946,100.4646391847537,08:00,19:00,19,medium,limited,029788815
+CUST_0288,ร้าน สยาม 288,Retail Store,"509 Sukhumvit Road, Bangkok",13.700533315542817,100.57851519378944,any,19:00,8,easy,limited,023799805
+CUST_0289,บริษัท กรุงเทพ 289,Warehouse,"792 Sukhumvit Road, Bangkok",13.789048213140171,100.52595715603584,08:00,17:00,18,easy,difficult,029536665
+CUST_0290,บริษัท สยาม 290,Retail Store,"251 Sukhumvit Road, Bangkok",13.935443567899796,100.61943347227452,08:00,any,10,medium,limited,023518002
+CUST_0291,บริษัท สุขใจ 291,Restaurant,"230 Sukhumvit Road, Bangkok",13.657692619741931,100.51824956552524,10:00,18:00,8,medium,difficult,026367620
+CUST_0292,บริษัท กรุงเทพ 292,Warehouse,"123 Sukhumvit Road, Bangkok",13.69469755679106,100.5553247594538,08:00,18:00,23,easy,difficult,021770553
+CUST_0293,บริษัท สุขใจ 293,Office,"887 Sukhumvit Road, Bangkok",13.810080764018064,100.57158101855869,10:00,19:00,9,medium,good,028662929
+CUST_0294,ร้าน ไทย 294,Retail Store,"299 Sukhumvit Road, Bangkok",13.814824271529135,100.59937514322716,10:00,18:00,10,medium,limited,029277218
+CUST_0295,ห้าง ไทย 295,Restaurant,"155 Sukhumvit Road, Bangkok",13.93665710878648,100.45364651653527,08:00,any,11,easy,good,026812025
+CUST_0296,ร้าน สยาม 296,Retail Store,"778 Sukhumvit Road, Bangkok",13.77925862746141,100.62934285796803,any,19:00,11,easy,good,029888812
+CUST_0297,ร้าน สุขใจ 297,Restaurant,"985 Sukhumvit Road, Bangkok",13.919409164684996,100.49869645931527,08:00,18:00,7,hard,limited,022560728
+CUST_0298,บริษัท สุขใจ 298,Retail Store,"718 Sukhumvit Road, Bangkok",13.764022352681161,100.48943082531459,10:00,any,11,hard,good,022603516
+CUST_0299,บริษัท สุขใจ 299,Supermarket,"77 Sukhumvit Road, Bangkok",13.75548680617189,100.47028416568985,08:00,any,16,hard,good,024972370
+CUST_0300,ร้าน กรุงเทพ 300,Warehouse,"949 Sukhumvit Road, Bangkok",13.835205527223891,100.55461694491636,any,19:00,22,medium,limited,025562662
+CUST_0301,บริษัท ไทย 301,Restaurant,"140 Sukhumvit Road, Bangkok",13.742186989477887,100.61060517956653,08:00,18:00,7,easy,good,028542478
+CUST_0302,ร้าน สุขใจ 302,Office,"124 Sukhumvit Road, Bangkok",13.824279615978838,100.46792526783099,10:00,18:00,7,medium,limited,028773665
+CUST_0303,บริษัท สยาม 303,Warehouse,"162 Sukhumvit Road, Bangkok",13.864845202266958,100.50452480014671,10:00,17:00,20,easy,limited,023488460
+CUST_0304,ห้าง ไทย 304,Retail Store,"992 Sukhumvit Road, Bangkok",13.896952204678698,100.55449620810323,10:00,any,13,hard,good,026013715
+CUST_0305,บริษัท สยาม 305,Warehouse,"975 Sukhumvit Road, Bangkok",13.854335356189495,100.48628766953912,any,any,21,hard,difficult,025191831
+CUST_0306,ร้าน สยาม 306,Retail Store,"824 Sukhumvit Road, Bangkok",13.70537553886111,100.50905565784407,09:00,17:00,7,easy,good,024729376
+CUST_0307,บริษัท สุขใจ 307,Restaurant,"382 Sukhumvit Road, Bangkok",13.82019366588867,100.50131255674027,08:00,19:00,8,easy,good,022081661
+CUST_0308,ห้าง สุขใจ 308,Restaurant,"829 Sukhumvit Road, Bangkok",13.777358227558908,100.46740779251753,09:00,17:00,10,medium,good,021716325
+CUST_0309,บริษัท ไทย 309,Office,"947 Sukhumvit Road, Bangkok",13.815067962646879,100.45868250657097,any,any,3,medium,good,027421134
+CUST_0310,บริษัท กรุงเทพ 310,Office,"220 Sukhumvit Road, Bangkok",13.683691303323366,100.450516802969,09:00,19:00,7,medium,limited,023493621
+CUST_0311,ห้าง ไทย 311,Retail Store,"663 Sukhumvit Road, Bangkok",13.895756657828036,100.62684129266968,10:00,any,7,medium,difficult,029036805
+CUST_0312,บริษัท กรุงเทพ 312,Retail Store,"393 Sukhumvit Road, Bangkok",13.888123155114155,100.57932118268458,09:00,any,14,easy,difficult,029821696
+CUST_0313,ห้าง สยาม 313,Restaurant,"392 Sukhumvit Road, Bangkok",13.773308540942011,100.61797226057335,10:00,any,12,hard,limited,026771934
+CUST_0314,ห้าง กรุงเทพ 314,Supermarket,"398 Sukhumvit Road, Bangkok",13.880983410075503,100.56132741158734,10:00,18:00,14,easy,limited,024674549
+CUST_0315,ร้าน สยาม 315,Retail Store,"829 Sukhumvit Road, Bangkok",13.884157654573158,100.50496120710963,any,19:00,9,hard,good,023678059
+CUST_0316,บริษัท ไทย 316,Retail Store,"273 Sukhumvit Road, Bangkok",13.905352278255831,100.58428493390613,08:00,18:00,7,hard,limited,026952633
+CUST_0317,บริษัท ไทย 317,Restaurant,"607 Sukhumvit Road, Bangkok",13.6786605941504,100.57477186493531,10:00,19:00,5,hard,good,026900247
+CUST_0318,ห้าง ไทย 318,Supermarket,"577 Sukhumvit Road, Bangkok",13.77718344387399,100.48059676016571,09:00,any,12,hard,limited,023945353
+CUST_0319,บริษัท สยาม 319,Office,"58 Sukhumvit Road, Bangkok",13.871062123483254,100.62255941550865,09:00,18:00,8,easy,difficult,029019324
+CUST_0320,ร้าน ไทย 320,Retail Store,"826 Sukhumvit Road, Bangkok",13.810607430552798,100.48568919304556,09:00,19:00,11,hard,good,026428919
+CUST_0321,บริษัท ไทย 321,Retail Store,"601 Sukhumvit Road, Bangkok",13.84259145013298,100.57141880721777,09:00,17:00,14,hard,limited,022216878
+CUST_0322,ห้าง สุขใจ 322,Warehouse,"601 Sukhumvit Road, Bangkok",13.84138823799479,100.50137676952914,08:00,19:00,21,medium,limited,023289279
+CUST_0323,ห้าง สุขใจ 323,Restaurant,"811 Sukhumvit Road, Bangkok",13.828342900555851,100.54935337177184,any,19:00,6,easy,difficult,026986539
+CUST_0324,ห้าง ไทย 324,Restaurant,"388 Sukhumvit Road, Bangkok",13.732362076200038,100.56940938337914,10:00,19:00,6,easy,good,021030163
+CUST_0325,ร้าน สยาม 325,Supermarket,"187 Sukhumvit Road, Bangkok",13.771295630431288,100.53563992298513,10:00,18:00,18,hard,difficult,022746679
+CUST_0326,บริษัท กรุงเทพ 326,Office,"764 Sukhumvit Road, Bangkok",13.867355055419585,100.45316421835312,08:00,18:00,9,medium,limited,023816683
+CUST_0327,ห้าง กรุงเทพ 327,Retail Store,"458 Sukhumvit Road, Bangkok",13.688518286836239,100.47082192987683,08:00,19:00,8,easy,good,022137407
+CUST_0328,ร้าน สยาม 328,Warehouse,"738 Sukhumvit Road, Bangkok",13.751168139826627,100.63110495846594,08:00,17:00,21,medium,limited,028040612
+CUST_0329,ร้าน สุขใจ 329,Restaurant,"903 Sukhumvit Road, Bangkok",13.673825810696696,100.4671316499193,any,19:00,5,hard,limited,022701688
+CUST_0330,ห้าง ไทย 330,Office,"167 Sukhumvit Road, Bangkok",13.828725218456686,100.5302375828078,any,17:00,2,easy,limited,021336852
+CUST_0331,ร้าน สยาม 331,Warehouse,"76 Sukhumvit Road, Bangkok",13.717996920668096,100.5209992611664,10:00,18:00,20,medium,good,022258331
+CUST_0332,บริษัท กรุงเทพ 332,Supermarket,"609 Sukhumvit Road, Bangkok",13.7827229809442,100.61637262265029,any,17:00,15,medium,difficult,023768193
+CUST_0333,ร้าน ไทย 333,Supermarket,"55 Sukhumvit Road, Bangkok",13.890106952346708,100.49674241638209,08:00,19:00,16,easy,good,027866576
+CUST_0334,ห้าง กรุงเทพ 334,Supermarket,"677 Sukhumvit Road, Bangkok",13.731344230950056,100.56856239833068,10:00,19:00,14,easy,good,021832744
+CUST_0335,ห้าง สุขใจ 335,Office,"158 Sukhumvit Road, Bangkok",13.809887335965401,100.51486675062309,08:00,19:00,4,easy,limited,022470159
+CUST_0336,ห้าง สุขใจ 336,Warehouse,"205 Sukhumvit Road, Bangkok",13.70709745884572,100.4604677751573,08:00,17:00,20,easy,good,025895783
+CUST_0337,ร้าน สยาม 337,Retail Store,"316 Sukhumvit Road, Bangkok",13.848551756954814,100.56155668347401,any,any,8,medium,difficult,025446036
+CUST_0338,ห้าง สุขใจ 338,Retail Store,"190 Sukhumvit Road, Bangkok",13.783905705359292,100.51671390989445,10:00,any,12,medium,good,028478868
+CUST_0339,ร้าน สุขใจ 339,Retail Store,"477 Sukhumvit Road, Bangkok",13.818689044763373,100.64152505690109,10:00,18:00,11,medium,difficult,022034137
+CUST_0340,ห้าง สยาม 340,Restaurant,"88 Sukhumvit Road, Bangkok",13.840488013677309,100.60096756398818,10:00,any,11,hard,good,022023137
+CUST_0341,ห้าง สุขใจ 341,Office,"989 Sukhumvit Road, Bangkok",13.810748305341924,100.46933528992935,any,18:00,2,medium,limited,022324645
+CUST_0342,ห้าง สยาม 342,Office,"515 Sukhumvit Road, Bangkok",13.896541933170326,100.45024733595189,09:00,17:00,9,medium,good,023804559
+CUST_0343,บริษัท ไทย 343,Restaurant,"44 Sukhumvit Road, Bangkok",13.849473517346166,100.60908999215795,any,17:00,12,hard,limited,024387643
+CUST_0344,ห้าง กรุงเทพ 344,Restaurant,"328 Sukhumvit Road, Bangkok",13.764757884073202,100.47396580040353,08:00,17:00,7,medium,difficult,027666510
+CUST_0345,ร้าน กรุงเทพ 345,Supermarket,"533 Sukhumvit Road, Bangkok",13.695724803999125,100.64849670043168,any,17:00,19,hard,difficult,029767135
+CUST_0346,บริษัท สุขใจ 346,Office,"154 Sukhumvit Road, Bangkok",13.880579941436553,100.49873134321278,09:00,17:00,7,easy,difficult,022694338
+CUST_0347,ห้าง กรุงเทพ 347,Warehouse,"899 Sukhumvit Road, Bangkok",13.806287393181613,100.57471713760056,any,19:00,18,medium,difficult,029146760
+CUST_0348,ห้าง สุขใจ 348,Supermarket,"39 Sukhumvit Road, Bangkok",13.886370596487678,100.62293723840672,09:00,19:00,16,medium,good,027739741
+CUST_0349,ร้าน กรุงเทพ 349,Retail Store,"708 Sukhumvit Road, Bangkok",13.897820289075758,100.60640561753408,09:00,17:00,8,hard,limited,025506097
+CUST_0350,บริษัท กรุงเทพ 350,Warehouse,"838 Sukhumvit Road, Bangkok",13.668932709923745,100.47352980569471,10:00,19:00,23,medium,limited,022647814
+CUST_0351,บริษัท กรุงเทพ 351,Restaurant,"998 Sukhumvit Road, Bangkok",13.728933770973253,100.5220272814943,any,19:00,9,medium,difficult,027992286
+CUST_0352,ห้าง สยาม 352,Supermarket,"193 Sukhumvit Road, Bangkok",13.753896530576702,100.49781106643945,any,18:00,12,medium,difficult,029127895
+CUST_0353,ร้าน สยาม 353,Supermarket,"528 Sukhumvit Road, Bangkok",13.741657293197408,100.52939630341486,09:00,17:00,18,medium,difficult,029502613
+CUST_0354,บริษัท สยาม 354,Office,"178 Sukhumvit Road, Bangkok",13.93271610573067,100.62466733234477,09:00,18:00,7,easy,good,021554840
+CUST_0355,บริษัท กรุงเทพ 355,Office,"722 Sukhumvit Road, Bangkok",13.925817591964325,100.54939269658117,09:00,19:00,7,medium,limited,029474614
+CUST_0356,ห้าง สยาม 356,Office,"698 Sukhumvit Road, Bangkok",13.819972608651426,100.52820855261164,08:00,18:00,5,medium,limited,028484373
+CUST_0357,ร้าน กรุงเทพ 357,Restaurant,"353 Sukhumvit Road, Bangkok",13.929178564393174,100.4732732795771,09:00,19:00,6,hard,difficult,022516524
+CUST_0358,บริษัท สุขใจ 358,Warehouse,"51 Sukhumvit Road, Bangkok",13.83838501583179,100.58486076128182,09:00,18:00,18,easy,difficult,024776753
+CUST_0359,ร้าน สุขใจ 359,Restaurant,"526 Sukhumvit Road, Bangkok",13.910417007032235,100.61118508002353,08:00,17:00,12,medium,good,023905824
+CUST_0360,บริษัท ไทย 360,Supermarket,"259 Sukhumvit Road, Bangkok",13.713594747270673,100.61374700081485,10:00,19:00,18,medium,limited,026850369
+CUST_0361,ร้าน ไทย 361,Office,"478 Sukhumvit Road, Bangkok",13.770894053629549,100.48470490299731,10:00,any,3,hard,good,021123271
+CUST_0362,ห้าง กรุงเทพ 362,Supermarket,"575 Sukhumvit Road, Bangkok",13.717084330348893,100.64146457757893,10:00,19:00,13,hard,good,029082229
+CUST_0363,ร้าน กรุงเทพ 363,Retail Store,"656 Sukhumvit Road, Bangkok",13.842291623203598,100.61449611272688,10:00,19:00,7,medium,difficult,026012883
+CUST_0364,บริษัท ไทย 364,Restaurant,"922 Sukhumvit Road, Bangkok",13.793806332041356,100.51274553823882,08:00,any,11,hard,limited,023347627
+CUST_0365,ห้าง สุขใจ 365,Retail Store,"303 Sukhumvit Road, Bangkok",13.79611857564568,100.5712505875502,10:00,any,12,medium,limited,021592554
+CUST_0366,ห้าง ไทย 366,Supermarket,"352 Sukhumvit Road, Bangkok",13.898799721542385,100.51350628957535,09:00,any,14,hard,limited,029511330
+CUST_0367,บริษัท ไทย 367,Warehouse,"301 Sukhumvit Road, Bangkok",13.769598908331695,100.47927479843246,08:00,any,21,easy,difficult,025339457
+CUST_0368,บริษัท กรุงเทพ 368,Supermarket,"671 Sukhumvit Road, Bangkok",13.686528573337583,100.54564680460962,08:00,18:00,15,medium,good,026152035
+CUST_0369,ร้าน กรุงเทพ 369,Office,"267 Sukhumvit Road, Bangkok",13.690549886746448,100.64262302231784,10:00,any,5,easy,limited,021900549
+CUST_0370,ห้าง สยาม 370,Supermarket,"484 Sukhumvit Road, Bangkok",13.883017089141507,100.47440701042488,09:00,17:00,15,hard,limited,029889215
+CUST_0371,ร้าน สยาม 371,Warehouse,"892 Sukhumvit Road, Bangkok",13.743544839925578,100.55122837256805,09:00,18:00,18,easy,limited,027865099
+CUST_0372,ร้าน ไทย 372,Supermarket,"324 Sukhumvit Road, Bangkok",13.733325787124778,100.62028972751025,09:00,17:00,19,medium,limited,023966618
+CUST_0373,ห้าง สยาม 373,Warehouse,"5 Sukhumvit Road, Bangkok",13.71481145475288,100.57391759097958,any,19:00,20,easy,good,023658100
+CUST_0374,บริษัท ไทย 374,Office,"630 Sukhumvit Road, Bangkok",13.759439465743359,100.52729216823184,any,any,6,medium,limited,029009447
+CUST_0375,บริษัท สยาม 375,Office,"547 Sukhumvit Road, Bangkok",13.884228475820532,100.54196008475387,09:00,19:00,3,easy,limited,029909268
+CUST_0376,บริษัท สยาม 376,Restaurant,"642 Sukhumvit Road, Bangkok",13.79538047610566,100.60085070886878,09:00,18:00,11,hard,limited,026236039
+CUST_0377,บริษัท สุขใจ 377,Restaurant,"516 Sukhumvit Road, Bangkok",13.858510568657566,100.64673578505268,10:00,18:00,7,easy,good,026003003
+CUST_0378,ร้าน กรุงเทพ 378,Warehouse,"445 Sukhumvit Road, Bangkok",13.701199427565,100.46492596286743,09:00,19:00,20,medium,limited,024161264
+CUST_0379,ร้าน สยาม 379,Restaurant,"234 Sukhumvit Road, Bangkok",13.74098254427028,100.47020916220214,09:00,18:00,12,easy,difficult,021367643
+CUST_0380,ห้าง ไทย 380,Supermarket,"127 Sukhumvit Road, Bangkok",13.857485416670796,100.57361033485745,10:00,17:00,15,medium,difficult,025291430
+CUST_0381,ห้าง สยาม 381,Supermarket,"609 Sukhumvit Road, Bangkok",13.949009056155893,100.61279405390121,08:00,17:00,18,hard,good,021809249
+CUST_0382,ร้าน สุขใจ 382,Retail Store,"390 Sukhumvit Road, Bangkok",13.716240788935691,100.48475051913246,08:00,19:00,10,medium,difficult,023569046
+CUST_0383,ห้าง สยาม 383,Restaurant,"309 Sukhumvit Road, Bangkok",13.808112439173495,100.53521667677808,any,17:00,11,hard,difficult,025529464
+CUST_0384,ห้าง ไทย 384,Supermarket,"429 Sukhumvit Road, Bangkok",13.887628090128162,100.53095968581704,08:00,17:00,19,medium,good,022782809
+CUST_0385,บริษัท ไทย 385,Office,"797 Sukhumvit Road, Bangkok",13.708386753546229,100.52355187017547,10:00,18:00,5,medium,difficult,027874568
+CUST_0386,บริษัท สยาม 386,Warehouse,"562 Sukhumvit Road, Bangkok",13.794490453960458,100.48537742902877,any,18:00,21,hard,limited,026546608
+CUST_0387,บริษัท สยาม 387,Restaurant,"688 Sukhumvit Road, Bangkok",13.8807914680924,100.45220625288573,08:00,17:00,6,hard,difficult,029289690
+CUST_0388,บริษัท สยาม 388,Restaurant,"741 Sukhumvit Road, Bangkok",13.690141120883847,100.5337161243248,08:00,19:00,10,hard,good,028663014
+CUST_0389,ร้าน สุขใจ 389,Warehouse,"52 Sukhumvit Road, Bangkok",13.72794396262351,100.60205796462444,08:00,18:00,18,easy,limited,027043399
+CUST_0390,ร้าน สยาม 390,Warehouse,"98 Sukhumvit Road, Bangkok",13.706908454452403,100.57378963860155,08:00,17:00,21,easy,difficult,023860721
+CUST_0391,ร้าน สุขใจ 391,Warehouse,"979 Sukhumvit Road, Bangkok",13.653636232393168,100.4982402915199,10:00,17:00,21,medium,limited,024068039
+CUST_0392,ร้าน สุขใจ 392,Retail Store,"986 Sukhumvit Road, Bangkok",13.709656883332588,100.46292333596882,any,19:00,14,medium,difficult,029023619
+CUST_0393,ห้าง ไทย 393,Office,"116 Sukhumvit Road, Bangkok",13.796356213177909,100.4719472397355,09:00,17:00,5,easy,good,027979786
+CUST_0394,ร้าน สุขใจ 394,Supermarket,"186 Sukhumvit Road, Bangkok",13.843827037038752,100.54986676699573,any,19:00,19,hard,good,023192032
+CUST_0395,ร้าน สยาม 395,Office,"909 Sukhumvit Road, Bangkok",13.679424774235274,100.54764822740437,any,any,5,easy,good,025389135
+CUST_0396,บริษัท ไทย 396,Warehouse,"979 Sukhumvit Road, Bangkok",13.909398117642125,100.49869559368098,10:00,17:00,18,medium,difficult,025170429
+CUST_0397,ร้าน สุขใจ 397,Office,"153 Sukhumvit Road, Bangkok",13.79280543881063,100.52517765702916,08:00,17:00,5,hard,good,029482016
+CUST_0398,ร้าน ไทย 398,Office,"77 Sukhumvit Road, Bangkok",13.907869569494084,100.5284787443057,any,19:00,3,easy,limited,025666702
+CUST_0399,ห้าง ไทย 399,Retail Store,"564 Sukhumvit Road, Bangkok",13.91762540668207,100.64106693730079,any,any,7,easy,good,028702329
+CUST_0400,ห้าง สุขใจ 400,Office,"91 Sukhumvit Road, Bangkok",13.847607643862233,100.63856622828266,any,any,3,medium,good,029344540
+CUST_0401,บริษัท สุขใจ 401,Retail Store,"423 Sukhumvit Road, Bangkok",13.781280937216618,100.50093412440921,08:00,17:00,8,easy,difficult,026110305
+CUST_0402,ห้าง ไทย 402,Supermarket,"671 Sukhumvit Road, Bangkok",13.929095665451346,100.50061168656016,any,19:00,19,medium,good,024739945
+CUST_0403,ร้าน สุขใจ 403,Office,"734 Sukhumvit Road, Bangkok",13.78844323938742,100.57744029536165,10:00,any,3,easy,good,024720299
+CUST_0404,ร้าน กรุงเทพ 404,Retail Store,"850 Sukhumvit Road, Bangkok",13.765904672954495,100.54002488648396,10:00,19:00,7,hard,good,021768029
+CUST_0405,ร้าน ไทย 405,Restaurant,"842 Sukhumvit Road, Bangkok",13.834180075428018,100.46333040811214,any,17:00,12,medium,difficult,024287016
+CUST_0406,บริษัท สุขใจ 406,Restaurant,"221 Sukhumvit Road, Bangkok",13.91473783213683,100.47113869598125,any,18:00,8,hard,limited,022808009
+CUST_0407,บริษัท สยาม 407,Office,"791 Sukhumvit Road, Bangkok",13.803666576243803,100.58604555584168,any,any,6,hard,difficult,029459031
+CUST_0408,ร้าน สยาม 408,Restaurant,"544 Sukhumvit Road, Bangkok",13.661406554471236,100.59924145149637,08:00,any,5,hard,limited,029528410
+CUST_0409,ห้าง ไทย 409,Restaurant,"749 Sukhumvit Road, Bangkok",13.671625300799603,100.46425134555305,09:00,17:00,12,medium,difficult,026399642
+CUST_0410,ร้าน สุขใจ 410,Supermarket,"624 Sukhumvit Road, Bangkok",13.660671260110664,100.55171585788952,09:00,19:00,19,medium,limited,025935413
+CUST_0411,บริษัท ไทย 411,Office,"423 Sukhumvit Road, Bangkok",13.75597542255062,100.50930711625753,10:00,19:00,4,hard,difficult,024646403
+CUST_0412,บริษัท กรุงเทพ 412,Restaurant,"704 Sukhumvit Road, Bangkok",13.9412249873012,100.63846307793465,10:00,18:00,7,hard,difficult,023983202
+CUST_0413,ห้าง กรุงเทพ 413,Supermarket,"728 Sukhumvit Road, Bangkok",13.70555867036024,100.48482186706681,08:00,19:00,16,hard,limited,028004117
+CUST_0414,ร้าน สุขใจ 414,Supermarket,"828 Sukhumvit Road, Bangkok",13.814884813115677,100.61610689128098,08:00,17:00,19,easy,limited,023438177
+CUST_0415,ห้าง สยาม 415,Retail Store,"205 Sukhumvit Road, Bangkok",13.729513928497502,100.45418899220618,10:00,18:00,14,medium,difficult,025203716
+CUST_0416,บริษัท กรุงเทพ 416,Restaurant,"209 Sukhumvit Road, Bangkok",13.804397275972054,100.62978016480125,08:00,19:00,12,medium,good,024763253
+CUST_0417,ร้าน ไทย 417,Supermarket,"524 Sukhumvit Road, Bangkok",13.88076694435144,100.57493271377086,10:00,17:00,13,medium,limited,027988821
+CUST_0418,ห้าง สยาม 418,Warehouse,"14 Sukhumvit Road, Bangkok",13.850205119413928,100.45208553987948,10:00,18:00,20,hard,limited,024784075
+CUST_0419,ห้าง ไทย 419,Warehouse,"795 Sukhumvit Road, Bangkok",13.834503890411659,100.60492675612757,09:00,19:00,17,medium,good,022249382
+CUST_0420,บริษัท สยาม 420,Restaurant,"387 Sukhumvit Road, Bangkok",13.937947955422779,100.54565105891518,08:00,any,11,medium,difficult,025433204
+CUST_0421,บริษัท กรุงเทพ 421,Restaurant,"6 Sukhumvit Road, Bangkok",13.940546633278315,100.60974283833092,10:00,any,8,hard,good,021670091
+CUST_0422,ร้าน สยาม 422,Restaurant,"793 Sukhumvit Road, Bangkok",13.792300832971865,100.47279132694287,10:00,any,9,hard,difficult,027007679
+CUST_0423,ห้าง กรุงเทพ 423,Retail Store,"539 Sukhumvit Road, Bangkok",13.824726797462173,100.59961463588591,09:00,18:00,14,hard,good,029474848
+CUST_0424,ร้าน สุขใจ 424,Restaurant,"95 Sukhumvit Road, Bangkok",13.834949918068524,100.48132768739477,10:00,18:00,6,easy,difficult,026568081
+CUST_0425,ร้าน กรุงเทพ 425,Warehouse,"224 Sukhumvit Road, Bangkok",13.75148025179835,100.63561672806522,any,17:00,23,easy,difficult,026805039
+CUST_0426,บริษัท ไทย 426,Office,"982 Sukhumvit Road, Bangkok",13.678503509697691,100.52519857798826,08:00,19:00,7,medium,good,027473923
+CUST_0427,ห้าง กรุงเทพ 427,Warehouse,"26 Sukhumvit Road, Bangkok",13.781821496908336,100.5725879164989,10:00,any,22,medium,good,025973336
+CUST_0428,ร้าน สยาม 428,Restaurant,"971 Sukhumvit Road, Bangkok",13.732137392254232,100.63566350656973,08:00,18:00,8,hard,difficult,021122986
+CUST_0429,บริษัท ไทย 429,Retail Store,"886 Sukhumvit Road, Bangkok",13.70924114695798,100.62738498004185,any,17:00,14,easy,difficult,028302077
+CUST_0430,ห้าง ไทย 430,Retail Store,"25 Sukhumvit Road, Bangkok",13.94772462014684,100.58429098697893,any,19:00,12,easy,good,022228898
+CUST_0431,บริษัท กรุงเทพ 431,Retail Store,"572 Sukhumvit Road, Bangkok",13.90841099890903,100.61930286773806,08:00,18:00,7,medium,limited,027510106
+CUST_0432,ห้าง สุขใจ 432,Office,"444 Sukhumvit Road, Bangkok",13.813204973754825,100.57721415274597,10:00,17:00,7,medium,difficult,022984841
+CUST_0433,บริษัท สยาม 433,Supermarket,"775 Sukhumvit Road, Bangkok",13.788161849182242,100.61839971057802,08:00,17:00,19,medium,difficult,022780658
+CUST_0434,ห้าง กรุงเทพ 434,Warehouse,"622 Sukhumvit Road, Bangkok",13.81734396765332,100.48611891963506,08:00,19:00,24,medium,limited,027628900
+CUST_0435,ร้าน ไทย 435,Retail Store,"547 Sukhumvit Road, Bangkok",13.703228630840913,100.5590053837794,09:00,18:00,9,hard,limited,025948917
+CUST_0436,ร้าน กรุงเทพ 436,Restaurant,"981 Sukhumvit Road, Bangkok",13.730799389490608,100.5579112440991,08:00,18:00,9,easy,good,021084386
+CUST_0437,ห้าง สุขใจ 437,Supermarket,"551 Sukhumvit Road, Bangkok",13.699444444718832,100.47634575469091,08:00,19:00,18,easy,difficult,026768873
+CUST_0438,ร้าน ไทย 438,Restaurant,"165 Sukhumvit Road, Bangkok",13.677561266313013,100.6430259484254,09:00,18:00,11,hard,limited,024260252
+CUST_0439,บริษัท สยาม 439,Retail Store,"872 Sukhumvit Road, Bangkok",13.801755807885549,100.61814060560225,any,17:00,11,medium,difficult,022130159
+CUST_0440,บริษัท ไทย 440,Warehouse,"744 Sukhumvit Road, Bangkok",13.774024934788578,100.60163700221531,any,19:00,17,medium,good,024934808
+CUST_0441,ร้าน สยาม 441,Retail Store,"922 Sukhumvit Road, Bangkok",13.802508164074883,100.50950969026377,09:00,19:00,9,medium,limited,026508733
+CUST_0442,ห้าง กรุงเทพ 442,Supermarket,"711 Sukhumvit Road, Bangkok",13.695470811476302,100.46875138412912,09:00,19:00,15,medium,limited,023829301
+CUST_0443,ร้าน ไทย 443,Retail Store,"805 Sukhumvit Road, Bangkok",13.840887406193774,100.60222430740863,09:00,any,13,medium,limited,023253277
+CUST_0444,ร้าน สุขใจ 444,Warehouse,"457 Sukhumvit Road, Bangkok",13.698254452187324,100.56160846502979,10:00,19:00,24,medium,difficult,022825908
+CUST_0445,ห้าง สยาม 445,Restaurant,"862 Sukhumvit Road, Bangkok",13.724003659356487,100.5952923430226,10:00,18:00,5,hard,good,025416344
+CUST_0446,ห้าง สยาม 446,Retail Store,"914 Sukhumvit Road, Bangkok",13.73337062917466,100.48879077345356,08:00,17:00,14,hard,difficult,027797028
+CUST_0447,บริษัท สยาม 447,Supermarket,"565 Sukhumvit Road, Bangkok",13.890021290609747,100.49080712692579,10:00,any,13,hard,good,027137418
+CUST_0448,บริษัท กรุงเทพ 448,Office,"138 Sukhumvit Road, Bangkok",13.872704415171752,100.61302367689608,any,17:00,4,medium,limited,029424968
+CUST_0449,ห้าง ไทย 449,Retail Store,"869 Sukhumvit Road, Bangkok",13.706407420384625,100.52107691373715,09:00,18:00,11,medium,good,024005557
+CUST_0450,ห้าง ไทย 450,Supermarket,"754 Sukhumvit Road, Bangkok",13.811608700202912,100.55483183414523,any,19:00,13,easy,good,029181277
+CUST_0451,บริษัท กรุงเทพ 451,Restaurant,"379 Sukhumvit Road, Bangkok",13.878297228008428,100.45706227098805,09:00,17:00,5,hard,good,029688672
+CUST_0452,ร้าน สุขใจ 452,Warehouse,"940 Sukhumvit Road, Bangkok",13.65330948427874,100.59990909689378,any,17:00,21,easy,difficult,026437011
+CUST_0453,ห้าง กรุงเทพ 453,Retail Store,"855 Sukhumvit Road, Bangkok",13.760382225390625,100.51538632326762,10:00,18:00,9,medium,difficult,027350486
+CUST_0454,ห้าง สยาม 454,Warehouse,"530 Sukhumvit Road, Bangkok",13.902591111449013,100.54406381082036,10:00,any,19,easy,difficult,027808902
+CUST_0455,ร้าน สุขใจ 455,Warehouse,"812 Sukhumvit Road, Bangkok",13.948900301288173,100.52366190610137,any,17:00,21,hard,good,028380275
+CUST_0456,บริษัท สยาม 456,Restaurant,"527 Sukhumvit Road, Bangkok",13.843009553973536,100.60607995522946,10:00,18:00,10,easy,good,023640018
+CUST_0457,ห้าง สยาม 457,Warehouse,"677 Sukhumvit Road, Bangkok",13.827913300256036,100.52830513963556,09:00,any,21,medium,difficult,022901507
+CUST_0458,ห้าง สุขใจ 458,Office,"491 Sukhumvit Road, Bangkok",13.650563965057474,100.48567451686147,09:00,18:00,3,hard,limited,021376582
+CUST_0459,บริษัท ไทย 459,Restaurant,"588 Sukhumvit Road, Bangkok",13.835876801237951,100.52109860208827,09:00,18:00,5,hard,difficult,021657513
+CUST_0460,บริษัท สยาม 460,Supermarket,"171 Sukhumvit Road, Bangkok",13.766302078425118,100.53046542493732,10:00,18:00,18,hard,limited,021312392
+CUST_0461,บริษัท ไทย 461,Warehouse,"460 Sukhumvit Road, Bangkok",13.794291866965837,100.57846510518105,any,any,24,easy,good,027891524
+CUST_0462,บริษัท ไทย 462,Supermarket,"639 Sukhumvit Road, Bangkok",13.681241207376086,100.49508775109274,10:00,18:00,15,hard,difficult,026749069
+CUST_0463,ห้าง สยาม 463,Office,"236 Sukhumvit Road, Bangkok",13.81819802832485,100.57069753331929,any,any,3,easy,good,021277874
+CUST_0464,ห้าง สุขใจ 464,Restaurant,"847 Sukhumvit Road, Bangkok",13.82981068969888,100.5704291288105,09:00,17:00,8,easy,limited,021654924
+CUST_0465,ห้าง สยาม 465,Supermarket,"96 Sukhumvit Road, Bangkok",13.897514823054019,100.5496511364527,any,18:00,17,hard,difficult,021020136
+CUST_0466,ห้าง สุขใจ 466,Office,"380 Sukhumvit Road, Bangkok",13.694699920844773,100.58908312966561,08:00,any,5,easy,limited,027396087
+CUST_0467,ห้าง สยาม 467,Warehouse,"436 Sukhumvit Road, Bangkok",13.88546909313344,100.59153618694819,09:00,19:00,23,medium,good,022406225
+CUST_0468,ห้าง สุขใจ 468,Warehouse,"264 Sukhumvit Road, Bangkok",13.897539200299834,100.55405931538374,09:00,17:00,21,hard,difficult,021119354
+CUST_0469,ห้าง สยาม 469,Supermarket,"533 Sukhumvit Road, Bangkok",13.694235758011885,100.51563855072186,08:00,any,18,hard,good,026299951
+CUST_0470,ร้าน สยาม 470,Office,"159 Sukhumvit Road, Bangkok",13.720757279743106,100.52428440037461,any,19:00,2,medium,difficult,028106183
+CUST_0471,ร้าน กรุงเทพ 471,Supermarket,"697 Sukhumvit Road, Bangkok",13.82946758821912,100.59713262284784,any,18:00,14,medium,difficult,029094465
+CUST_0472,ร้าน สุขใจ 472,Restaurant,"260 Sukhumvit Road, Bangkok",13.870084749012694,100.50988870209838,10:00,19:00,5,hard,limited,023316405
+CUST_0473,ห้าง ไทย 473,Retail Store,"458 Sukhumvit Road, Bangkok",13.776374415988222,100.57723547294165,09:00,17:00,14,easy,difficult,027720296
+CUST_0474,ห้าง สยาม 474,Warehouse,"165 Sukhumvit Road, Bangkok",13.703475740071392,100.58718225420998,any,17:00,23,easy,good,028913286
+CUST_0475,ร้าน สยาม 475,Supermarket,"66 Sukhumvit Road, Bangkok",13.901940685690684,100.52676659038661,10:00,18:00,12,medium,good,021633429
+CUST_0476,ร้าน กรุงเทพ 476,Office,"729 Sukhumvit Road, Bangkok",13.935093825879177,100.49058727351499,08:00,18:00,5,hard,limited,028364728
+CUST_0477,บริษัท กรุงเทพ 477,Retail Store,"200 Sukhumvit Road, Bangkok",13.758670632495686,100.51690225774838,08:00,18:00,11,hard,good,021605005
+CUST_0478,บริษัท สยาม 478,Warehouse,"162 Sukhumvit Road, Bangkok",13.860075587833355,100.56716202919438,08:00,19:00,22,medium,limited,027629401
+CUST_0479,ห้าง ไทย 479,Office,"531 Sukhumvit Road, Bangkok",13.731921242991843,100.55361575324777,08:00,17:00,6,easy,difficult,025773013
+CUST_0480,ห้าง กรุงเทพ 480,Supermarket,"356 Sukhumvit Road, Bangkok",13.884774581955401,100.46122722068324,10:00,18:00,14,hard,good,028629590
+CUST_0481,ห้าง สยาม 481,Office,"268 Sukhumvit Road, Bangkok",13.778897043821681,100.62454605009692,09:00,any,6,hard,good,022214435
+CUST_0482,ร้าน กรุงเทพ 482,Supermarket,"970 Sukhumvit Road, Bangkok",13.788519844083714,100.54618120015061,08:00,19:00,16,hard,difficult,025196677
+CUST_0483,ร้าน สุขใจ 483,Office,"789 Sukhumvit Road, Bangkok",13.787456066021369,100.54659377441708,09:00,19:00,7,medium,difficult,028729606
+CUST_0484,บริษัท สุขใจ 484,Supermarket,"120 Sukhumvit Road, Bangkok",13.839351193787012,100.4599684055566,10:00,17:00,18,medium,difficult,024697401
+CUST_0485,ร้าน สุขใจ 485,Restaurant,"979 Sukhumvit Road, Bangkok",13.79893834570659,100.53737014052304,10:00,17:00,5,hard,limited,025165071
+CUST_0486,บริษัท สุขใจ 486,Warehouse,"690 Sukhumvit Road, Bangkok",13.652108761144087,100.46145605021553,10:00,17:00,22,hard,good,028995273
+CUST_0487,ร้าน ไทย 487,Warehouse,"916 Sukhumvit Road, Bangkok",13.833067544843292,100.47707081645554,10:00,18:00,23,hard,difficult,024190481
+CUST_0488,ห้าง ไทย 488,Office,"241 Sukhumvit Road, Bangkok",13.926786917426336,100.5444120868394,09:00,19:00,6,easy,good,024401858
+CUST_0489,ห้าง กรุงเทพ 489,Restaurant,"160 Sukhumvit Road, Bangkok",13.670687404906927,100.46141094423025,08:00,17:00,10,easy,difficult,029265544
+CUST_0490,บริษัท สยาม 490,Supermarket,"869 Sukhumvit Road, Bangkok",13.66088628678405,100.50514397061912,any,19:00,18,hard,limited,029260100
+CUST_0491,ร้าน สุขใจ 491,Supermarket,"188 Sukhumvit Road, Bangkok",13.92187637415631,100.49990923996991,10:00,any,19,easy,difficult,023151610
+CUST_0492,ห้าง สุขใจ 492,Retail Store,"490 Sukhumvit Road, Bangkok",13.761362128166999,100.53577737577221,08:00,19:00,7,medium,difficult,023932663
+CUST_0493,บริษัท สุขใจ 493,Office,"324 Sukhumvit Road, Bangkok",13.883013167086554,100.46307323151288,08:00,17:00,6,hard,good,027365745
+CUST_0494,บริษัท กรุงเทพ 494,Supermarket,"371 Sukhumvit Road, Bangkok",13.905926887021094,100.45930011728801,10:00,18:00,13,hard,limited,024978534
+CUST_0495,ร้าน กรุงเทพ 495,Warehouse,"375 Sukhumvit Road, Bangkok",13.921931236003322,100.47784907422353,09:00,any,20,medium,good,028031212
+CUST_0496,ร้าน สุขใจ 496,Warehouse,"287 Sukhumvit Road, Bangkok",13.744556856329208,100.60437154523633,any,18:00,22,hard,good,024834713
+CUST_0497,ห้าง กรุงเทพ 497,Retail Store,"824 Sukhumvit Road, Bangkok",13.91995000370618,100.4543646793551,09:00,any,14,medium,good,023446851
+CUST_0498,ร้าน สยาม 498,Restaurant,"181 Sukhumvit Road, Bangkok",13.814496175117927,100.47559764170673,any,any,12,easy,difficult,029673937
+CUST_0499,ห้าง กรุงเทพ 499,Supermarket,"805 Sukhumvit Road, Bangkok",13.931046738609927,100.4604515758572,any,19:00,15,medium,difficult,021800429
+CUST_0500,บริษัท ไทย 500,Office,"62 Sukhumvit Road, Bangkok",13.886313904658312,100.57488508929436,09:00,19:00,6,medium,difficult,022615677

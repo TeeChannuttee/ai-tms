@@ -1,0 +1,51 @@
+vehicle_id,license_plate,vehicle_type,capacity_kg,cost_per_km,fuel_type,year,status,depot_id
+VEH_001,กข-4657,Truck 4-Wheel,2000,12,Diesel,2019,active,DEPOT_005
+VEH_002,กม-2679,Truck 4-Wheel,2000,12,Electric,2018,active,DEPOT_003
+VEH_003,กม-9935,Truck 4-Wheel,2000,12,Diesel,2019,active,DEPOT_004
+VEH_004,กม-7912,Truck 10-Wheel,10000,25,Diesel,2024,active,DEPOT_003
+VEH_005,กข-2535,Van,1000,8,Diesel,2021,active,DEPOT_001
+VEH_006,กข-9279,Van,1000,8,Electric,2020,active,DEPOT_005
+VEH_007,กข-4257,Truck 4-Wheel,2000,12,Electric,2019,active,DEPOT_004
+VEH_008,กม-9928,Truck 10-Wheel,10000,25,Gasoline,2023,active,DEPOT_002
+VEH_009,กข-8359,Van,1000,8,Electric,2019,active,DEPOT_005
+VEH_010,กท-1106,Van,1000,8,Diesel,2021,active,DEPOT_004
+VEH_011,กม-7924,Van,1000,8,Gasoline,2022,active,DEPOT_003
+VEH_012,กท-3547,Truck 10-Wheel,10000,25,Diesel,2021,active,DEPOT_002
+VEH_013,กท-2674,Truck 4-Wheel,2000,12,Diesel,2019,active,DEPOT_002
+VEH_014,กท-2584,Truck 4-Wheel,2000,12,Gasoline,2022,active,DEPOT_002
+VEH_015,กท-5333,Truck 6-Wheel,5000,18,Diesel,2019,active,DEPOT_002
+VEH_016,กม-8527,Truck 6-Wheel,5000,18,Electric,2023,active,DEPOT_004
+VEH_017,กข-7201,Van,1000,8,Diesel,2022,active,DEPOT_005
+VEH_018,กม-5803,Van,1000,8,Electric,2022,active,DEPOT_002
+VEH_019,กม-6925,Truck 10-Wheel,10000,25,Electric,2021,active,DEPOT_004
+VEH_020,กข-2139,Van,1000,8,Diesel,2022,active,DEPOT_005
+VEH_021,กม-4733,Van,1000,8,Gasoline,2024,active,DEPOT_001
+VEH_022,กข-4814,Truck 6-Wheel,5000,18,Diesel,2021,active,DEPOT_003
+VEH_023,กท-5554,Van,1000,8,Gasoline,2020,active,DEPOT_003
+VEH_024,กม-6977,Truck 6-Wheel,5000,18,Diesel,2022,active,DEPOT_002
+VEH_025,กท-6820,Van,1000,8,Diesel,2018,active,DEPOT_004
+VEH_026,กม-5374,Truck 6-Wheel,5000,18,Electric,2021,active,DEPOT_002
+VEH_027,กม-2169,Van,1000,8,Electric,2024,active,DEPOT_005
+VEH_028,กม-3803,Truck 6-Wheel,5000,18,Electric,2023,active,DEPOT_003
+VEH_029,กม-5010,Truck 4-Wheel,2000,12,Diesel,2020,active,DEPOT_005
+VEH_030,กท-7216,Truck 10-Wheel,10000,25,Gasoline,2020,active,DEPOT_001
+VEH_031,กม-4598,Truck 6-Wheel,5000,18,Electric,2024,active,DEPOT_003
+VEH_032,กท-1916,Truck 4-Wheel,2000,12,Diesel,2024,active,DEPOT_002
+VEH_033,กข-6168,Van,1000,8,Gasoline,2022,active,DEPOT_003
+VEH_034,กท-2084,Van,1000,8,Diesel,2024,active,DEPOT_001
+VEH_035,กม-6155,Van,1000,8,Diesel,2021,active,DEPOT_005
+VEH_036,กม-9179,Van,1000,8,Gasoline,2022,active,DEPOT_003
+VEH_037,กม-8517,Van,1000,8,Diesel,2022,active,DEPOT_003
+VEH_038,กท-3287,Truck 4-Wheel,2000,12,Diesel,2021,active,DEPOT_002
+VEH_039,กม-9830,Truck 4-Wheel,2000,12,Gasoline,2023,active,DEPOT_001
+VEH_040,กม-8019,Van,1000,8,Electric,2021,active,DEPOT_004
+VEH_041,กท-6930,Van,1000,8,Diesel,2021,active,DEPOT_003
+VEH_042,กข-9348,Van,1000,8,Gasoline,2024,active,DEPOT_004
+VEH_043,กข-1771,Van,1000,8,Diesel,2023,active,DEPOT_001
+VEH_044,กข-3621,Van,1000,8,Electric,2020,active,DEPOT_001
+VEH_045,กท-2040,Truck 6-Wheel,5000,18,Gasoline,2018,active,DEPOT_003
+VEH_046,กท-8668,Van,1000,8,Electric,2020,active,DEPOT_001
+VEH_047,กท-1188,Truck 4-Wheel,2000,12,Electric,2018,active,DEPOT_003
+VEH_048,กม-2876,Van,1000,8,Electric,2024,active,DEPOT_003
+VEH_049,กม-5371,Van,1000,8,Electric,2018,active,DEPOT_004
+VEH_050,กท-2827,Van,1000,8,Gasoline,2018,active,DEPOT_002

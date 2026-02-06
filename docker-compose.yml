@@ -1,0 +1,229 @@
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgis/postgis:15-3.4-alpine
+    container_name: ai-tms-postgres
+    environment:
+      POSTGRES_DB: ai_tms
+      POSTGRES_USER: tms_user
+      POSTGRES_PASSWORD: tms_password
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-tms_user}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ai-tms-network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: ai-tms-redis
+    command: redis-server --appendonly yes
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ai-tms-network
+
+  # Backend API (Go)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ai-tms-backend
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=${POSTGRES_DB:-ai_tms}
+      - POSTGRES_USER=${POSTGRES_USER:-tms_user}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-tms_password}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - JWT_SECRET=${JWT_SECRET}
+      - AI_SERVICE_URL=http://ai-service:8000
+      - PORT=8080
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+      - ./uploads:/app/uploads
+    networks:
+      - ai-tms-network
+    restart: unless-stopped
+
+  # Real-time Service (Go + WebSocket)
+  realtime-service:
+    build:
+      context: ./realtime-service
+      dockerfile: Dockerfile
+    container_name: ai-tms-realtime
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - PORT=8081
+    ports:
+      - "8081:8081"
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - ai-tms-network
+    restart: unless-stopped
+
+  # AI/ML Service (Python + FastAPI)
+  ai-service:
+    build:
+      context: ./ai-service
+      dockerfile: Dockerfile
+    container_name: ai-tms-ai-service
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=${POSTGRES_DB:-ai_tms}
+      - POSTGRES_USER=${POSTGRES_USER:-tms_user}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-tms_password}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ML_MODEL_PATH=/app/models
+      - PORT=8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./ai-service:/app
+      - ./ai-service/models:/app/models
+    networks:
+      - ai-tms-network
+    restart: unless-stopped
+
+  # Planner UI (Next.js)
+  planner-ui:
+    build:
+      context: ./planner-ui
+      dockerfile: Dockerfile
+    container_name: ai-tms-planner-ui
+    environment:
+      - NEXT_PUBLIC_BACKEND_URL=http://localhost:8080
+      - NEXT_PUBLIC_REALTIME_URL=ws://localhost:8081
+      - NEXT_PUBLIC_AI_SERVICE_URL=http://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./planner-ui:/app
+      - /app/node_modules
+      - /app/.next
+    networks:
+      - ai-tms-network
+    restart: unless-stopped
+
+  # Driver App (Next.js PWA)
+  # driver-app:
+  #   build:
+  #     context: ./driver-app
+  #     dockerfile: Dockerfile
+  #   container_name: ai-tms-driver-app
+  #   environment:
+  #     - NEXT_PUBLIC_BACKEND_URL=http://localhost:8080
+  #     - NEXT_PUBLIC_REALTIME_URL=ws://localhost:8081
+  #   ports:
+  #     - "3001:3000"
+  #   depends_on:
+  #     - backend
+  #   volumes:
+  #     - ./driver-app:/app
+  #     - /app/node_modules
+  #     - /app/.next
+  #   networks:
+  #     - ai-tms-network
+  #   restart: unless-stopped
+
+  # Customer Portal (Next.js)
+  # customer-portal:
+  #   build:
+  #     context: ./customer-portal
+  #     dockerfile: Dockerfile
+  #   container_name: ai-tms-customer-portal
+  #   environment:
+  #     - NEXT_PUBLIC_BACKEND_URL=http://localhost:8080
+  #     - NEXT_PUBLIC_REALTIME_URL=ws://localhost:8081
+  #   ports:
+  #     - "3002:3000"
+  #   depends_on:
+  #     - backend
+  #   volumes:
+  #     - ./customer-portal:/app
+  #     - /app/node_modules
+  #     - /app/.next
+  #   networks:
+  #     - ai-tms-network
+  #   restart: unless-stopped
+
+  # Prometheus (Monitoring)
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: ai-tms-prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./infrastructure/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    networks:
+      - ai-tms-network
+    restart: unless-stopped
+
+  # Grafana (Dashboards)
+  grafana:
+    image: grafana/grafana:latest
+    container_name: ai-tms-grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    ports:
+      - "3003:3000"
+    volumes:
+      - ./infrastructure/monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
+      - ./infrastructure/monitoring/grafana/datasources:/etc/grafana/provisioning/datasources
+      - grafana-data:/var/lib/grafana
+    depends_on:
+      - prometheus
+    networks:
+      - ai-tms-network
+    restart: unless-stopped
+
+volumes:
+  postgres-data:
+  redis-data:
+  prometheus-data:
+  grafana-data:
+
+
+networks:
+  ai-tms-network:
+    driver: bridge
